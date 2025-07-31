@@ -4,7 +4,7 @@
 
 ## Features
 
-- Native & lightweigt
+- Native & lightweigt (~7 MB app)
 - Live CPU and memory usage
 - Advanced filtering with user-defined Javascript filters
 - Advanced tree view with cumulative totals
