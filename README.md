@@ -24,4 +24,4 @@
 
 ## More
 - [Changelog](https://process-spy.app/archive/release_notes.html)
-- Like ProcessSpy? Write a [Review](https://senja.io/p/processspy/r/NTKt5r)
+- :heart: ProcessSpy? Write a [Review](https://senja.io/p/processspy/r/NTKt5r)
