@@ -1,4 +1,6 @@
-![ProcessSpy banner](https://public-files.gumroad.com/s3vu4337av486qpwhpmipij4uwg3)
+![ProcessSpy banner](https://public-files.gumroad.com/hjtl8yj650elhnrp1f5bw0rl9l31)
+
+
 
 # ProcessSpy - macOS process monitor
 
@@ -6,6 +8,7 @@
 
 - Native & lightweigt (~7 MB app)
 - Live CPU and memory usage
+- Two line view for more information
 - Advanced filtering with user-defined Javascript filters
 - Advanced tree view with cumulative totals
 - Version information
