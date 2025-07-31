@@ -11,6 +11,7 @@
 - Version information
 - Point-and-click process discovery
 - 30s mini cpu graph for each process
+- more features in licensed version - visit https://process-spy.app
 
 ## Installation
 
