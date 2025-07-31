@@ -9,8 +9,10 @@
 - Native & lightweigt (~7 MB app)
 - Live CPU and memory usage
 - Two line view for more information
+- Color highlighting
 - Advanced filtering with user-defined Javascript filters
 - Advanced tree view with cumulative totals
+- Shortcuts triggers
 - Version information
 - Point-and-click process discovery
 - 30s mini cpu graph for each process
