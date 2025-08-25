@@ -2,7 +2,7 @@
 
 
 
-# ProcessSpy - macOS process monitor
+# ProcessSpy - advanced macOS process monitor
 
 ## Features
 
