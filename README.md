@@ -10,6 +10,7 @@
 - Live CPU and memory usage
 - Two line view for more information
 - Color highlighting
+- Multi-property quick search with regex support
 - Advanced filtering with user-defined Javascript filters
 - Advanced tree view with cumulative totals
 - Shortcuts triggers
