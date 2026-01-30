@@ -30,3 +30,4 @@
 - [Documentation](https://docs.process-spy.app)
 - [Changelog](https://process-spy.app/archive/release_notes.html)
 - :heart: ProcessSpy? Write a [Review](https://senja.io/p/processspy/r/NTKt5r)
+- Check also: [Restretto](https://restretto.app) - Free minimal REST API client for Mac
