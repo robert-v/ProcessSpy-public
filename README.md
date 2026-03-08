@@ -25,6 +25,10 @@
 1. Download dmg archive from https://process-spy.app
 2. Mount the dmg and move .app file to /Applications
 3. Run the app
+  
+or install from Homebrew:
+
+brew install --cask processspy
 
 ## More
 - [Documentation](https://docs.process-spy.app)
