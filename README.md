@@ -1,5 +1,4 @@
-![ProcessSpy banner](https://public-files.gumroad.com/novjrjx6bo64dv8ynti3i6lq9dns)
-
+<img width="1733" height="1122" alt="image" src="https://github.com/user-attachments/assets/a83b5f1c-12c2-411e-92d9-0d9c465a7690" />
 
 
 # ProcessSpy - advanced macOS process monitor
