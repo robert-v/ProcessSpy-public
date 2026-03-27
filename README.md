@@ -5,7 +5,7 @@
 
 ## Features
 
-- Native & lightweigt (~7 MB app)
+- Native & lightweigt (~9 MB app)
 - Live CPU and memory usage
 - Two line view for more information
 - Color highlighting
