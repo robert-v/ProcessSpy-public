@@ -23,38 +23,37 @@ and macOS terminology — ProcessSpy is aimed at developers and power users,
 so translations should reflect that.
 
 Before you start, open an issue to let me know which language you'd 
-like to translate. I'll add the language column to `Localizable.xcstrings` 
-and push the updated file so you have the correct structure to work with.
+like to translate. I'll add the `.xcloc` file for your language to this 
+folder so you have the correct file to work with.
 
 Once the translation is complete and the PR is merged, I'll send you 
 a lifetime license for ProcessSpy as a thank you. One license per language.
 
 ## How New Strings Are Handled
 
-When new features are added, new strings appear in `Localizable.xcstrings` 
-marked as untranslated. Until translated, the app displays them in English 
-— nothing breaks for users. If you've translated a language, you'll 
-occasionally receive a ping when new strings need attention.
+When new features are added, new strings appear marked as untranslated. 
+Until translated, the app displays them in English — nothing breaks for 
+users. If you've translated a language, you'll occasionally receive a 
+ping when new strings need attention.
+
+---
 
 ## How to Contribute
 
-### 1. Fork and clone the repository
+### 1. Download the translation file
 
-```bash
-git clone https://github.com/robert-v/ProcessSpy-public.git
-```
+1. Go to the [ProcessSpy-public repository](https://github.com/robert-v/ProcessSpy-public)
+2. Click the green **Code** button → **Download ZIP**
+3. Unzip the downloaded file
+4. Open the `translations` folder — you'll find `.xcloc` files, one per language
 
-### 2. Open `Localizable.xcstrings`
+### 2. Open your language file in Xcode
 
-The file is a standard JSON file and can be edited in:
-- **Xcode** — open it for a visual table editor with all languages side by side (recommended)
-- **Any text editor** — edit the JSON directly if you prefer
+Double-click the `.xcloc` file for your language. Xcode opens it in a 
+dedicated translation editor showing English on the left and your language 
+on the right. No project setup needed.
 
-### 3. Find your language column
-
-Each string has slots for every language. Find the column for your language and fill in the translations. Leave the English column untouched.
-
-### 4. Translate
+### 3. Translate
 
 A few important rules:
 
@@ -71,15 +70,22 @@ A few important rules:
 ❌ Wrong: `进程 %A 正在运行`  
 ✅ Correct: `进程 %@ 正在运行`
 
-**Do not translate keys.** The key is the identifier on the left side of each entry — only translate the value.
-
 **Keep the same tone.** ProcessSpy is a technical utility aimed at developers and power users. Translations should be precise and professional rather than casual.
 
-**macOS terminology.** Use Apple's official terminology for your language where it exists. Apple publishes localized HIG and system UI terms — when in doubt, check what macOS itself uses for the same concept.
+**macOS terminology.** Use Apple's official terminology for your language where it exists. When in doubt, check what macOS itself uses for the same concept in your language.
 
-### 5. Submit a Pull Request
+### 4. Submit your translation
 
-Once done, submit a PR with a title like `Add Chinese Simplified translation` or `Update German translation`. Include a brief note if any strings were unclear or skipped.
+1. Go to the [translations folder](https://github.com/robert-v/ProcessSpy-public/tree/main/translations) on GitHub
+2. Click **Add file → Upload files**
+3. Drag your translated `.xcloc` file into the upload area
+4. Scroll down, leave the branch name as the default, and select 
+   **Create a new branch and start a pull request**
+5. Click **Propose changes**
+6. On the next screen, update the title to something like 
+   `Add German translation` and add a short description if any 
+   strings were unclear or skipped
+7. Click **Create pull request**t
 
 ---
 
