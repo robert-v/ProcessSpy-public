@@ -29,6 +29,9 @@ or install from Homebrew:
 
 brew install --cask processspy
 
+## Translations
+Want to help translate ProcessSpy? See [translations/](translations/).
+
 ## More
 - [Documentation](https://docs.process-spy.app)
 - [Changelog](https://process-spy.app/archive/release_notes.html)
