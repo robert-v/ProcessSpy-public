@@ -18,6 +18,10 @@ Community translations are welcome and appreciated. If you'd like to contribute,
 
 ## Contributing a New Language
 
+Ideally you should be a native speaker with familiarity with technical 
+and macOS terminology — ProcessSpy is aimed at developers and power users, 
+so translations should reflect that.
+
 Before you start, open an issue to let me know which language you'd 
 like to translate. I'll add the language column to `Localizable.xcstrings` 
 and push the updated file so you have the correct structure to work with.
@@ -84,6 +88,18 @@ Once done, submit a PR with a title like `Add Chinese Simplified translation` or
 - Use Simplified Chinese (`zh-Hans`), not Traditional (`zh-Hant`)
 - Refer to macOS Chinese system UI for standard terminology (e.g. how macOS itself labels CPU, memory, processes)
 - No spaces needed between Chinese characters and placeholders in most cases: `进程 %@ 已退出` is fine
+
+## Tips for German
+
+- Strings in German are typically 30–40% longer than English. Where a 
+  literal translation feels too long, prefer a shorter idiomatic alternative 
+  over a word-for-word translation — natural German is more important than 
+  mirroring the English exactly.
+- All nouns must be capitalized (`Prozess`, `Speicher`, `Filter`).
+- Use `du` (informal), not `Sie` — consistent with Apple's own German macOS UI.
+- Merge compound terms rather than leaving them as separate words: 
+  `Prozessmonitor` not `Prozess Monitor`.
+- Refer to macOS German system UI for standard terminology.
 
 ---
 
