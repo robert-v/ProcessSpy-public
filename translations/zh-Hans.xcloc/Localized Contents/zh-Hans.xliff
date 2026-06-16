@@ -30,944 +30,1181 @@
       </trans-unit>
       <trans-unit id="%.0f%%" xml:space="preserve">
         <source>%.0f%%</source>
+        <target>%.0f%%</target>
         <note/>
       </trans-unit>
       <trans-unit id="%.1f" xml:space="preserve">
         <source>%.1f</source>
+        <target>%.1f</target>
         <note from="auto-generated">A label displaying the CPU usage percentage. The value is formatted to one decimal place.</note>
       </trans-unit>
       <trans-unit id="%@" xml:space="preserve">
         <source>%@</source>
+        <target>%@</target>
         <note from="auto-generated">The name of the app. The argument is the string “CFBundleName”, the string “CFBundleShortVersionString”, or the string “⚠️”.</note>
       </trans-unit>
       <trans-unit id="%@ %%" xml:space="preserve">
         <source>%@ %%</source>
+        <target>%@ %%</target>
         <note from="auto-generated">A percentage value showing the CPU usage of the selected processes. The argument is the string “%.1f”.</note>
       </trans-unit>
       <trans-unit id="%@ (%@ pages)" xml:space="preserve">
         <source>%1$@ (%2$@ pages)</source>
+        <target>%1$@（%2$@ 页）</target>
         <note from="auto-generated">A label displaying the total number of page-ins and their rate. The first argument is the string “Zero KB”. The second argument is the rate of page-ins per second.</note>
       </trans-unit>
       <trans-unit id="%@ peak" xml:space="preserve">
         <source>%@ peak</source>
+        <target>%@ 峰值</target>
         <note from="auto-generated">A label describing the peak usage of a resource.</note>
       </trans-unit>
       <trans-unit id="%@ processes (%@)" xml:space="preserve">
         <source>%1$@ processes (%2$@)</source>
+        <target>%1$@ 个进程（%2$@）</target>
         <note from="auto-generated">A subtitle that displays the number of processes matching the current filter. The first argument is the number of processes. The second argument is the name of the current filter.</note>
       </trans-unit>
       <trans-unit id="%@%%" xml:space="preserve">
         <source>%@%%</source>
+        <target>%@%%</target>
         <note from="auto-generated">A label displaying the CPU usage of a process, as a percentage. The argument is the string “%.1f”.</note>
       </trans-unit>
       <trans-unit id="%@/%@" xml:space="preserve">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note from="auto-generated">A priority level displayed in a text view. The text is in the format "priority/nice". The text size is adjustable. The text is italicized if the task is finished. The text is dimmed if the task is filtered out.</note>
       </trans-unit>
       <trans-unit id="%@/s" xml:space="preserve">
         <source>%@/s</source>
+        <target>%@/s</target>
         <note from="auto-generated">A label showing the rate at which a resource is being read or written. The argument is the string “Zero KB”.</note>
       </trans-unit>
       <trans-unit id="%@/s (%@ pages/s)" xml:space="preserve">
         <source>%1$@/s (%2$@ pages/s)</source>
+        <target>%1$@/s（%2$@ 页/秒）</target>
         <note from="auto-generated">A rate of page-ins in bytes per second, followed by the rate in pages per second. The argument is the string “Zero KB”.</note>
       </trans-unit>
       <trans-unit id="%@: %@" xml:space="preserve">
         <source>%1$@: %2$@</source>
+        <target>%1$@：%2$@</target>
         <note from="auto-generated">A tooltip that shows the CPU time spent by the process in the given QoS class. The argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”.</note>
       </trans-unit>
       <trans-unit id="%@: %@ (%@)" xml:space="preserve">
         <source>%1$@: %2$@ (%3$@)</source>
+        <target>%1$@：%2$@（%3$@）</target>
         <note from="auto-generated">A tooltip that shows the CPU time spent in a specific QoS class. The second argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”. The third argument is the string “0%”, the string “&lt;0.1%”, the string “%.1f%%”, or the string “%.0f%%”.</note>
       </trans-unit>
       <trans-unit id="%lld" xml:space="preserve">
         <source>%lld</source>
+        <target>%lld</target>
         <note from="auto-generated">A stepper that lets the user adjust the maximum number of processes displayed in the menu bar popover.</note>
       </trans-unit>
       <trans-unit id="%lld / %lld" xml:space="preserve">
         <source>%1$lld / %2$lld</source>
+        <target>%1$lld / %2$lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld Processes Selected" xml:space="preserve">
         <source>%lld Processes Selected</source>
+        <target>已选择 %lld 个进程</target>
         <note from="auto-generated">A label that shows the number of processes that have been selected for inspection. The argument is the number of selected processes.</note>
       </trans-unit>
       <trans-unit id="%lld samples recorded." xml:space="preserve">
         <source>%lld samples recorded.</source>
+        <target>已记录 %lld 个样本。</target>
         <note from="auto-generated">A label displaying the number of samples recorded in the history of a process. The argument is the number of samples in the history.</note>
       </trans-unit>
       <trans-unit id="%lld%%" xml:space="preserve">
         <source>%lld%%</source>
+        <target>%lld%%</target>
         <note from="auto-generated">A label displaying the CPU usage threshold. The value is bound to the `cpuAlertThreshold` property.</note>
       </trans-unit>
       <trans-unit id="%lldE + %lldP" xml:space="preserve">
         <source>%1$lldE + %2$lldP</source>
+        <target>%1$lldE + %2$lldP</target>
         <note from="auto-generated">A label that shows the number of "efficiency" and "performance" cores in the CPU topology.</note>
       </trans-unit>
       <trans-unit id="%u" xml:space="preserve">
         <source>%u</source>
+        <target>%u</target>
         <note from="auto-generated">A label displaying the number of threads in a process.</note>
       </trans-unit>
       <trans-unit id="(Spawns a vmmap process)" xml:space="preserve">
         <source>(Spawns a vmmap process)</source>
+        <target>（生成一个 vmmap 进程）</target>
         <note/>
       </trans-unit>
       <trans-unit id="-" xml:space="preserve">
         <source>-</source>
+        <target>-</target>
         <note from="auto-generated">A placeholder for the current footprint.</note>
       </trans-unit>
       <trans-unit id="0s" xml:space="preserve">
         <source>0s</source>
+        <target>0s</target>
         <note from="auto-generated">A label displayed for a process's CPU time, when that time is 0.</note>
       </trans-unit>
       <trans-unit id="=" xml:space="preserve">
         <source>=</source>
+        <target>=</target>
         <note from="auto-generated">A separator between the key and value of a property list item</note>
       </trans-unit>
       <trans-unit id="About ProcessSpy" xml:space="preserve">
         <source>About ProcessSpy</source>
+        <target>关于 ProcessSpy</target>
         <note from="auto-generated">A button that opens the app's About dialog.</note>
       </trans-unit>
       <trans-unit id="Add..." xml:space="preserve">
         <source>Add...</source>
+        <target>添加…</target>
         <note from="auto-generated">A button that opens a sheet to add a new color setting.</note>
       </trans-unit>
       <trans-unit id="After clicking Apply the tool will perform online validation of your license key." xml:space="preserve">
         <source>After clicking Apply the tool will perform online validation of your license key.</source>
+        <target>点按“应用”后，工具将在线验证您的许可证密钥。</target>
         <note from="auto-generated">A description of the license key validation process.</note>
       </trans-unit>
       <trans-unit id="Any process Name or Command matching the string will be highlighted with the chosen color." xml:space="preserve">
         <source>Any process Name or Command matching the string will be highlighted with the chosen color.</source>
+        <target>任何与该字符串匹配的进程名称或命令都将以所选颜色高亮显示。</target>
         <note from="auto-generated">A description of the color highlighting feature.</note>
       </trans-unit>
       <trans-unit id="App &quot;Not Responding&quot;" xml:space="preserve">
         <source>App "Not Responding"</source>
+        <target>App“无响应”</target>
         <note from="auto-generated">A toggle that enables or disables the "App "Not Responding" alert.</note>
       </trans-unit>
       <trans-unit id="App Behavior" xml:space="preserve">
         <source>App Behavior</source>
+        <target>App 行为</target>
         <note from="auto-generated">A section in the menu bar settings view that lets the user choose how ProcessSpy is displayed.</note>
       </trans-unit>
       <trans-unit id="Appearance" xml:space="preserve">
         <source>Appearance</source>
+        <target>外观</target>
         <note from="auto-generated">A section in the general settings.</note>
       </trans-unit>
       <trans-unit id="Apply" xml:space="preserve">
         <source>Apply</source>
+        <target>应用</target>
         <note from="auto-generated">A button that applies a license key.</note>
       </trans-unit>
       <trans-unit id="Are you sure you want to delete this color setting?" xml:space="preserve">
         <source>Are you sure you want to delete this color setting?</source>
+        <target>确定要删除此颜色设置吗？</target>
         <note from="auto-generated">A confirmation dialog asking the user to confirm the deletion of a color setting.</note>
       </trans-unit>
       <trans-unit id="Are you sure you want to delete this filter?" xml:space="preserve">
         <source>Are you sure you want to delete this filter?</source>
+        <target>确定要删除此过滤器吗？</target>
         <note from="auto-generated">A confirmation dialog asking the user to confirm the deletion of a filter.</note>
       </trans-unit>
       <trans-unit id="Are you sure you want to delete this setting?" xml:space="preserve">
         <source>Are you sure you want to delete this setting?</source>
+        <target>确定要删除此设置吗？</target>
         <note from="auto-generated">A confirmation dialog asking the user to confirm the deletion of a notification setting.</note>
       </trans-unit>
       <trans-unit id="Arg %lld" xml:space="preserve">
         <source>Arg %lld</source>
+        <target>参数 %lld</target>
         <note from="auto-generated">A badge that shows the index of a command-line argument. The argument is the index of the argument.</note>
       </trans-unit>
       <trans-unit id="Avg: %.1f" xml:space="preserve">
         <source>Avg: %.1f</source>
+        <target>平均：%.1f</target>
         <note from="auto-generated">A label displaying the average and peak CPU usage of a process.</note>
       </trans-unit>
       <trans-unit id="Avg: %@" xml:space="preserve">
         <source>Avg: %@</source>
+        <target>平均：%@</target>
         <note from="auto-generated">A label displaying the average and peak memory usage of a process.</note>
       </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
         <source>Behavior</source>
+        <target>行为</target>
         <note from="auto-generated">A section in the general settings.</note>
       </trans-unit>
       <trans-unit id="Bring to Front" xml:space="preserve">
         <source>Bring to Front</source>
+        <target>前置</target>
         <note/>
       </trans-unit>
       <trans-unit id="C" xml:space="preserve">
         <source>C</source>
+        <target>C</target>
         <note from="auto-generated">A letter "C" for CPU.</note>
       </trans-unit>
       <trans-unit id="CPU" xml:space="preserve">
         <source>CPU</source>
+        <target>CPU</target>
         <note from="auto-generated">A label displayed above the CPU usage of the selected processes.</note>
       </trans-unit>
       <trans-unit id="CPU %" xml:space="preserve">
         <source>CPU %</source>
+        <target>CPU %</target>
         <note from="auto-generated">A label displayed above the CPU usage chart.</note>
       </trans-unit>
       <trans-unit id="CPU Agg.:" xml:space="preserve">
         <source>CPU Agg.:</source>
+        <target>CPU 合计：</target>
         <note from="auto-generated">A label displayed above the CPU usage of a process.</note>
       </trans-unit>
       <trans-unit id="CPU:" xml:space="preserve">
         <source>CPU:</source>
+        <target>CPU：</target>
         <note from="auto-generated">A label displayed in a tooltip.</note>
       </trans-unit>
       <trans-unit id="Cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>取消</target>
         <note from="auto-generated">A button that dismisses the current view without saving any changes.</note>
       </trans-unit>
       <trans-unit id="Case sensitive search" xml:space="preserve">
         <source>Case sensitive search</source>
+        <target>区分大小写搜索</target>
         <note from="auto-generated">A toggle that lets the user enable or disable case-sensitive search.</note>
       </trans-unit>
       <trans-unit id="Category" xml:space="preserve">
         <source>Category</source>
+        <target>类别</target>
         <note from="auto-generated">A column in the log table that shows the category of a log entry.</note>
       </trans-unit>
       <trans-unit id="Cell font size" xml:space="preserve">
         <source>Cell font size</source>
+        <target>单元格字体大小</target>
         <note from="auto-generated">A label for the cell font size picker.</note>
       </trans-unit>
       <trans-unit id="Cell vertical padding" xml:space="preserve">
         <source>Cell vertical padding</source>
+        <target>单元格垂直间距</target>
         <note from="auto-generated">A label for the cell vertical padding picker.</note>
       </trans-unit>
       <trans-unit id="Check for Updates…" xml:space="preserve">
         <source>Check for Updates…</source>
+        <target>检查更新…</target>
         <note from="auto-generated">A button that checks for updates.</note>
       </trans-unit>
       <trans-unit id="Clear" xml:space="preserve">
         <source>Clear</source>
+        <target>清除</target>
         <note from="auto-generated">A button that clears the log view.</note>
       </trans-unit>
       <trans-unit id="Color highlighting" xml:space="preserve">
         <source>Color highlighting</source>
+        <target>颜色高亮</target>
         <note from="auto-generated">A heading for the color highlighting settings.</note>
       </trans-unit>
       <trans-unit id="Color:" xml:space="preserve">
         <source>Color:</source>
+        <target>颜色：</target>
         <note from="auto-generated">A label displayed next to a color picker.</note>
       </trans-unit>
       <trans-unit id="Colors" xml:space="preserve">
         <source>Colors</source>
+        <target>颜色</target>
         <note from="auto-generated">A label for the color settings screen.</note>
       </trans-unit>
       <trans-unit id="Command" xml:space="preserve">
         <source>Command</source>
+        <target>命令</target>
         <note/>
       </trans-unit>
       <trans-unit id="Command:" xml:space="preserve">
         <source>Command:</source>
+        <target>命令：</target>
         <note from="auto-generated">A label for the command regex field.</note>
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
+        <target>拷贝</target>
         <note from="auto-generated">A contextual menu item that copies the current entitlement to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy All" xml:space="preserve">
         <source>Copy All</source>
+        <target>拷贝全部</target>
         <note from="auto-generated">A button that copies the entire command to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy Argument" xml:space="preserve">
         <source>Copy Argument</source>
+        <target>拷贝参数</target>
         <note from="auto-generated">A menu item that copies the selected argument to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy Destination" xml:space="preserve">
         <source>Copy Destination</source>
+        <target>拷贝目标地址</target>
         <note from="auto-generated">A button that copies the destination of a socket to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy Key" xml:space="preserve">
         <source>Copy Key</source>
+        <target>拷贝键</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy Key=Value" xml:space="preserve">
         <source>Copy Key=Value</source>
+        <target>拷贝键=值</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy Path" xml:space="preserve">
         <source>Copy Path</source>
+        <target>拷贝路径</target>
         <note from="auto-generated">A label for a button that copies a file path to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy Source" xml:space="preserve">
         <source>Copy Source</source>
+        <target>拷贝来源地址</target>
         <note from="auto-generated">A menu item that copies the source of a socket to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Copy Value" xml:space="preserve">
         <source>Copy Value</source>
+        <target>拷贝值</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy currently visible processes as JSON" xml:space="preserve">
         <source>Copy currently visible processes as JSON</source>
+        <target>将当前可见进程拷贝为 JSON</target>
         <note from="auto-generated">A button that copies the currently visible processes as JSON to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Created by [rob3rth](https://twitter.com/rob3rth)" xml:space="preserve">
         <source>Created by [rob3rth](https://twitter.com/rob3rth)</source>
+        <target>由 [rob3rth](https://twitter.com/rob3rth) 创建</target>
         <note from="auto-generated">A line of text that displays the name of the app's creator.</note>
       </trans-unit>
       <trans-unit id="Currently using %lld%% of lifetime peak (%@)" xml:space="preserve">
         <source>Currently using %1$lld%% of lifetime peak (%2$@)</source>
+        <target>当前使用量为历史峰值的 %1$lld%%（%2$@）</target>
         <note from="auto-generated">A tooltip that describes the current usage as a percentage of the lifetime peak.</note>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
+        <target>删除</target>
         <note from="auto-generated">A button that deletes a color setting.</note>
       </trans-unit>
       <trans-unit id="Dst:" xml:space="preserve">
         <source>Dst:</source>
+        <target>目标：</target>
         <note from="auto-generated">A label for the destination of a socket.</note>
       </trans-unit>
       <trans-unit id="Dylibs" xml:space="preserve">
         <source>Dylibs</source>
+        <target>动态库</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable quick search highlighting" xml:space="preserve">
         <source>Enable quick search highlighting</source>
+        <target>启用快速搜索高亮</target>
         <note from="auto-generated">A toggle that enables or disables quick search highlighting.</note>
       </trans-unit>
       <trans-unit id="Enter license key" xml:space="preserve">
         <source>Enter license key</source>
+        <target>输入许可证密钥</target>
         <note from="auto-generated">A label for the license key field.</note>
       </trans-unit>
       <trans-unit id="Enter license key..." xml:space="preserve">
         <source>Enter license key...</source>
+        <target>输入许可证密钥…</target>
         <note from="auto-generated">A button that opens a window for entering a license key.</note>
       </trans-unit>
       <trans-unit id="Enter license key…" xml:space="preserve">
         <source>Enter license key…</source>
+        <target>输入许可证密钥…</target>
         <note/>
       </trans-unit>
       <trans-unit id="Export History..." xml:space="preserve">
         <source>Export History...</source>
+        <target>导出历史记录…</target>
         <note/>
       </trans-unit>
       <trans-unit id="Export JSON" xml:space="preserve">
         <source>Export JSON</source>
+        <target>导出 JSON</target>
         <note from="auto-generated">A button that exports the currently visible processes as JSON.</note>
       </trans-unit>
       <trans-unit id="Export to CSV" xml:space="preserve">
         <source>Export to CSV</source>
+        <target>导出为 CSV</target>
         <note from="auto-generated">A button that exports a process's history to a CSV file.</note>
       </trans-unit>
       <trans-unit id="External tools" xml:space="preserve">
         <source>External tools</source>
+        <target>外部工具</target>
         <note from="auto-generated">A section in the general settings view that allows the user to configure paths and search query formats.</note>
       </trans-unit>
       <trans-unit id="Filter" xml:space="preserve">
         <source>Filter</source>
+        <target>筛选</target>
         <note from="auto-generated">A label for the search bar.</note>
       </trans-unit>
       <trans-unit id="Filter name:" xml:space="preserve">
         <source>Filter name:</source>
+        <target>过滤器名称：</target>
         <note from="auto-generated">A label for the name of a filter.</note>
       </trans-unit>
       <trans-unit id="Filter processes with Javascript expressions. Complicated expressions may affect tool's performance. Visit [Github](https://github.com/robert-v/ProcessSpy-public/tree/main/filter_examples) for filter examples." xml:space="preserve">
         <source>Filter processes with Javascript expressions. Complicated expressions may affect tool's performance. Visit [Github](https://github.com/robert-v/ProcessSpy-public/tree/main/filter_examples) for filter examples.</source>
+        <target>使用 JavaScript 表达式过滤进程。复杂的表达式可能影响工具性能。访问 [Github](https://github.com/robert-v/ProcessSpy-public/tree/main/filter_examples) 查看过滤器示例。</target>
         <note from="auto-generated">A description of how to use the filter.</note>
       </trans-unit>
       <trans-unit id="Filter: %@" xml:space="preserve">
         <source>Filter: %@</source>
+        <target>过滤器：%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filters" xml:space="preserve">
         <source>Filters</source>
+        <target>过滤器</target>
         <note from="auto-generated">A heading displayed above the list of user's filters.</note>
       </trans-unit>
       <trans-unit id="Find process" xml:space="preserve">
         <source>Find process</source>
+        <target>查找进程</target>
         <note from="auto-generated">A button that lets the user find a process by clicking on the screen.</note>
       </trans-unit>
       <trans-unit id="Flat" xml:space="preserve">
         <source>Flat</source>
+        <target>平铺</target>
         <note from="auto-generated">A label for a flat view of the view hierarchy.</note>
       </trans-unit>
       <trans-unit id="Footprint" xml:space="preserve">
         <source>Footprint</source>
+        <target>内存占用</target>
         <note from="auto-generated">A label displayed above a row showing the user's current and peak footprint.</note>
       </trans-unit>
       <trans-unit id="Force Quit" xml:space="preserve">
         <source>Force Quit</source>
+        <target>强制退出</target>
         <note/>
       </trans-unit>
       <trans-unit id="Force Quit Process" xml:space="preserve">
         <source>Force Quit Process</source>
+        <target>强制退出进程</target>
         <note/>
       </trans-unit>
       <trans-unit id="General" xml:space="preserve">
         <source>General</source>
+        <target>通用</target>
         <note from="auto-generated">The title of the General settings screen.</note>
       </trans-unit>
       <trans-unit id="Get License" xml:space="preserve">
         <source>Get License</source>
+        <target>获取许可证</target>
         <note from="auto-generated">A button that opens the license purchase flow.</note>
       </trans-unit>
       <trans-unit id="Hide Inspector" xml:space="preserve">
         <source>Hide Inspector</source>
+        <target>隐藏检查器</target>
         <note from="auto-generated">A label for hiding the inspector.</note>
       </trans-unit>
       <trans-unit id="Hierarchy" xml:space="preserve">
         <source>Hierarchy</source>
+        <target>层级</target>
         <note from="auto-generated">A view type that shows a hierarchical list of views.</note>
       </trans-unit>
       <trans-unit id="Hierarchy, expand children dimmed" xml:space="preserve">
         <source>Hierarchy, expand children dimmed</source>
+        <target>层级，展开子项（变暗）</target>
         <note from="auto-generated">A view type picker with a "Hierarchy" option that shows expanded children.</note>
       </trans-unit>
       <trans-unit id="Hierarchy, expand children fully" xml:space="preserve">
         <source>Hierarchy, expand children fully</source>
+        <target>层级，完全展开子项</target>
         <note from="auto-generated">A view type picker with a hierarchy view.</note>
       </trans-unit>
       <trans-unit id="History chart" xml:space="preserve">
         <source>History chart</source>
+        <target>历史图表</target>
         <note from="auto-generated">A label for a view that shows a bar chart.</note>
       </trans-unit>
       <trans-unit id="History recording stopped." xml:space="preserve">
         <source>History recording stopped.</source>
+        <target>历史记录已停止。</target>
         <note from="auto-generated">A label displayed when a user stops recording a process's history.</note>
       </trans-unit>
       <trans-unit id="Ignore processes (comma-separated):" xml:space="preserve">
         <source>Ignore processes (comma-separated):</source>
+        <target>忽略的进程（以逗号分隔）：</target>
         <note from="auto-generated">A label displayed above a text editor that allows the user to specify processes to ignore when calculating CPU usage.</note>
       </trans-unit>
       <trans-unit id="Include Finished" xml:space="preserve">
         <source>Include Finished</source>
+        <target>包含已结束</target>
         <note from="auto-generated">A toggle that lets the user choose whether to show finished processes.</note>
       </trans-unit>
       <trans-unit id="Include finished processes" xml:space="preserve">
         <source>Include finished processes</source>
+        <target>包含已结束的进程</target>
         <note from="auto-generated">A toggle that lets the user choose whether to show finished processes.</note>
       </trans-unit>
       <trans-unit id="Info: %@" xml:space="preserve">
         <source>Info: %@</source>
+        <target>信息：%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Interrupt (SIGINT)" xml:space="preserve">
         <source>Interrupt (SIGINT)</source>
+        <target>中断 (SIGINT)</target>
         <note/>
       </trans-unit>
       <trans-unit id="JSON" xml:space="preserve">
         <source>JSON</source>
+        <target>JSON</target>
         <note/>
       </trans-unit>
       <trans-unit id="Kill (SIGKILL)" xml:space="preserve">
         <source>Kill (SIGKILL)</source>
+        <target>强制终止 (SIGKILL)</target>
         <note/>
       </trans-unit>
       <trans-unit id="License activated." xml:space="preserve">
         <source>License activated.</source>
+        <target>许可证已激活。</target>
         <note from="auto-generated">A message displayed when the user has a valid license.</note>
       </trans-unit>
       <trans-unit id="License update required. Click to migrate." xml:space="preserve">
         <source>License update required. Click to migrate.</source>
+        <target>需要更新许可证。点按以迁移。</target>
         <note from="auto-generated">A message that appears when the user needs to update their Gumroad license.</note>
       </trans-unit>
       <trans-unit id="Licensed to: %@" xml:space="preserve">
         <source>Licensed to: %@</source>
+        <target>许可给：%@</target>
         <note from="auto-generated">A label displaying the email address of the user who has activated a license. The text is wrapped to fit within 320 points of width.</note>
       </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
         <source>Load dylibs</source>
+        <target>加载动态库</target>
         <note/>
       </trans-unit>
       <trans-unit id="M. Agg.:" xml:space="preserve">
         <source>M. Agg.:</source>
+        <target>内存合计：</target>
         <note from="auto-generated">A label for the aggregated memory usage.</note>
       </trans-unit>
       <trans-unit id="Maximum processes shown" xml:space="preserve">
         <source>Maximum processes shown</source>
+        <target>最多显示进程数</target>
         <note from="auto-generated">A label displayed under the stepper that allows the user to change the maximum number of processes that can be displayed in the popover.</note>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
         <source>Memory:</source>
+        <target>内存：</target>
         <note from="auto-generated">A label displayed in a tooltip.</note>
       </trans-unit>
       <trans-unit id="Menu Bar" xml:space="preserve">
         <source>Menu Bar</source>
+        <target>菜单栏</target>
         <note from="auto-generated">The title of the menu bar settings view.</note>
       </trans-unit>
       <trans-unit id="Menu Bar Alerts" xml:space="preserve">
         <source>Menu Bar Alerts</source>
+        <target>菜单栏提醒</target>
         <note from="auto-generated">A section in the menu bar settings view that allows the user to configure alerts.</note>
       </trans-unit>
       <trans-unit id="Menu Bar Widgets" xml:space="preserve">
         <source>Menu Bar Widgets</source>
+        <target>菜单栏小组件</target>
         <note from="auto-generated">A section in the menu bar settings view that allows the user to enable or disable the display of CPU, GPU, memory, and SSD usage in the menu bar.</note>
       </trans-unit>
       <trans-unit id="Message" xml:space="preserve">
         <source>Message</source>
+        <target>消息</target>
         <note from="auto-generated">A column in the log table that displays the log message.</note>
       </trans-unit>
       <trans-unit id="Mirrored history chart" xml:space="preserve">
         <source>Mirrored history chart</source>
+        <target>镜像历史图表</target>
         <note from="auto-generated">A description of a bar chart that shows two mirrored values.</note>
       </trans-unit>
       <trans-unit id="NEW" xml:space="preserve">
         <source>NEW</source>
+        <target>新</target>
         <note/>
       </trans-unit>
       <trans-unit id="Name" xml:space="preserve">
         <source>Name</source>
+        <target>名称</target>
         <note/>
       </trans-unit>
       <trans-unit id="Name:" xml:space="preserve">
         <source>Name:</source>
+        <target>名称：</target>
         <note from="auto-generated">A label for the name of a color setting.</note>
       </trans-unit>
       <trans-unit id="No Info.plist available" xml:space="preserve">
         <source>No Info.plist available</source>
+        <target>没有可用的 Info.plist</target>
         <note/>
       </trans-unit>
       <trans-unit id="No Process Selected" xml:space="preserve">
         <source>No Process Selected</source>
+        <target>未选择进程</target>
         <note from="auto-generated">A label displayed when no process is selected.</note>
       </trans-unit>
       <trans-unit id="No Selection" xml:space="preserve">
         <source>No Selection</source>
+        <target>无选择</target>
         <note from="auto-generated">A message displayed when no process is selected.</note>
       </trans-unit>
       <trans-unit id="No command available" xml:space="preserve">
         <source>No command available</source>
+        <target>没有可用的命令</target>
         <note from="auto-generated">A message displayed when there is no command to display.</note>
       </trans-unit>
       <trans-unit id="No entitlements" xml:space="preserve">
         <source>No entitlements</source>
+        <target>没有授权</target>
         <note from="auto-generated">A label displayed when the user has no entitlements.</note>
       </trans-unit>
       <trans-unit id="No environment variables" xml:space="preserve">
         <source>No environment variables</source>
+        <target>没有环境变量</target>
         <note/>
       </trans-unit>
       <trans-unit id="No matches found" xml:space="preserve">
         <source>No matches found</source>
+        <target>未找到匹配项</target>
         <note from="auto-generated">A message displayed when no search results are found.</note>
       </trans-unit>
       <trans-unit id="No open sockets" xml:space="preserve">
         <source>No open sockets</source>
+        <target>没有打开的套接字</target>
         <note from="auto-generated">A message displayed when there are no open sockets.</note>
       </trans-unit>
       <trans-unit id="Not available in free version." xml:space="preserve">
         <source>Not available in free version.</source>
+        <target>免费版本中不可用。</target>
         <note from="auto-generated">A message displayed in the UI.</note>
       </trans-unit>
       <trans-unit id="P" xml:space="preserve">
         <source>P</source>
+        <target>P</target>
         <note from="auto-generated">A letter "P" in the CPU load indicator.</note>
       </trans-unit>
       <trans-unit id="PID" xml:space="preserve">
         <source>PID</source>
+        <target>PID</target>
         <note/>
       </trans-unit>
       <trans-unit id="Page-ins" xml:space="preserve">
         <source>Page-ins</source>
+        <target>页面调入</target>
         <note from="auto-generated">A label displayed above the page-in count and rate.</note>
       </trans-unit>
       <trans-unit id="Path" xml:space="preserve">
         <source>Path</source>
+        <target>路径</target>
         <note/>
       </trans-unit>
       <trans-unit id="Path to vmmap:" xml:space="preserve">
         <source>Path to vmmap:</source>
+        <target>vmmap 路径：</target>
         <note from="auto-generated">A label for the path to the vmmap tool.</note>
       </trans-unit>
       <trans-unit id="Pause" xml:space="preserve">
         <source>Pause</source>
+        <target>暂停</target>
         <note/>
       </trans-unit>
       <trans-unit id="Pause (SIGSTOP)" xml:space="preserve">
         <source>Pause (SIGSTOP)</source>
+        <target>暂停 (SIGSTOP)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Peak: %.1f" xml:space="preserve">
         <source>Peak: %.1f</source>
+        <target>峰值：%.1f</target>
         <note from="auto-generated">A label displaying the average CPU usage of a process.</note>
       </trans-unit>
       <trans-unit id="Peak: %@" xml:space="preserve">
         <source>Peak: %@</source>
+        <target>峰值：%@</target>
         <note from="auto-generated">A label displaying the peak memory usage of a process. The argument is the peak memory usage in the format of a readable unit.</note>
       </trans-unit>
       <trans-unit id="Per-core CPU usage" xml:space="preserve">
         <source>Per-core CPU usage</source>
+        <target>各核心 CPU 使用率</target>
         <note from="auto-generated">A label describing the content of the view.</note>
       </trans-unit>
       <trans-unit id="Please buy a license key on [Gumroad ProcessSpy page](https://rob3rth.gumroad.com/l/yzukse) and apply it below:" xml:space="preserve">
         <source>Please buy a license key on [Gumroad ProcessSpy page](https://rob3rth.gumroad.com/l/yzukse) and apply it below:</source>
+        <target>请在 [Gumroad ProcessSpy 页面](https://rob3rth.gumroad.com/l/yzukse) 购买许可证密钥，并在下方应用：</target>
         <note from="auto-generated">A description of the license key process.</note>
       </trans-unit>
       <trans-unit id="Please fill in Name and Expression." xml:space="preserve">
         <source>Please fill in Name and Expression.</source>
+        <target>请填写名称和表达式。</target>
         <note from="auto-generated">A warning message displayed when the user tries to save a filter without filling in both the name and expression.</note>
       </trans-unit>
       <trans-unit id="Please fill in all fields." xml:space="preserve">
         <source>Please fill in all fields.</source>
+        <target>请填写所有字段。</target>
         <note from="auto-generated">A warning message displayed when the user tries to save a new or updated notification setting with an empty name or shortcut name.</note>
       </trans-unit>
       <trans-unit id="Please fill in at least a Name or a Command." xml:space="preserve">
         <source>Please fill in at least a Name or a Command.</source>
+        <target>请至少填写名称或命令。</target>
         <note from="auto-generated">A warning message displayed when the user tries to save a color setting without filling in either the name or the command.</note>
       </trans-unit>
       <trans-unit id="Please update your ProcessSpy license." xml:space="preserve">
         <source>Please update your ProcessSpy license.</source>
+        <target>请更新您的 ProcessSpy 许可证。</target>
         <note from="auto-generated">A warning message displayed when the user is using an outdated license key.</note>
       </trans-unit>
       <trans-unit id="Popover Appearance" xml:space="preserve">
         <source>Popover Appearance</source>
+        <target>弹出框外观</target>
         <note from="auto-generated">A section in the menu bar settings view that allows the user to change the size of the popover.</note>
       </trans-unit>
       <trans-unit id="Prio/Nice" xml:space="preserve">
         <source>Prio/Nice</source>
+        <target>优先级/Nice</target>
         <note/>
       </trans-unit>
       <trans-unit id="Process Event" xml:space="preserve">
         <source>Process Event</source>
+        <target>进程事件</target>
         <note from="auto-generated">A label for the process event picker.</note>
       </trans-unit>
       <trans-unit id="Process Info" xml:space="preserve">
         <source>Process Info</source>
+        <target>进程信息</target>
         <note from="auto-generated">A section in the general settings view.</note>
       </trans-unit>
       <trans-unit id="Process Name:" xml:space="preserve">
         <source>Process Name:</source>
+        <target>进程名称：</target>
         <note from="auto-generated">A label for the name of the process to monitor.</note>
       </trans-unit>
       <trans-unit id="ProcessSpy Documentation…" xml:space="preserve">
         <source>ProcessSpy Documentation…</source>
+        <target>ProcessSpy 文档…</target>
         <note from="auto-generated">A button that opens the ProcessSpy website when pressed.</note>
       </trans-unit>
       <trans-unit id="ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com." xml:space="preserve">
         <source>ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com.</source>
+        <target>ProcessSpy 现已采用更安全的激活系统。点按以重新输入您的 Gumroad 许可证密钥。需要帮助？请联系 processspy@icloud.com。</target>
         <note from="auto-generated">A help message for the license migration banner.</note>
       </trans-unit>
       <trans-unit id="ProcessSpy uses open-source software:" xml:space="preserve">
         <source>ProcessSpy uses open-source software:</source>
+        <target>ProcessSpy 使用以下开源软件：</target>
         <note from="auto-generated">A heading for open-source software used by ProcessSpy.</note>
       </trans-unit>
       <trans-unit id="QoS" xml:space="preserve">
         <source>QoS</source>
+        <target>QoS</target>
         <note from="auto-generated">A label displayed above the QoS column in the row.</note>
       </trans-unit>
       <trans-unit id="Quit Process" xml:space="preserve">
         <source>Quit Process</source>
+        <target>退出进程</target>
         <note/>
       </trans-unit>
       <trans-unit id="Refresh interval (seconds):" xml:space="preserve">
         <source>Refresh interval (seconds):</source>
+        <target>刷新间隔（秒）：</target>
         <note from="auto-generated">A label for the refresh interval in seconds.</note>
       </trans-unit>
       <trans-unit id="Remember finished processes (minutes)" xml:space="preserve">
         <source>Remember finished processes (minutes)</source>
+        <target>记住已结束的进程（分钟）</target>
         <note from="auto-generated">A label displayed in the General Settings view.</note>
       </trans-unit>
       <trans-unit id="Reset" xml:space="preserve">
         <source>Reset</source>
+        <target>重置</target>
         <note/>
       </trans-unit>
       <trans-unit id="Resident Memory" xml:space="preserve">
         <source>Resident Memory</source>
+        <target>常驻内存</target>
         <note from="auto-generated">A label displayed above a chart that shows the memory usage of a process.</note>
       </trans-unit>
       <trans-unit id="Resume" xml:space="preserve">
         <source>Resume</source>
+        <target>继续</target>
         <note/>
       </trans-unit>
       <trans-unit id="Resume (SIGCONT)" xml:space="preserve">
         <source>Resume (SIGCONT)</source>
+        <target>继续 (SIGCONT)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Run Time" xml:space="preserve">
         <source>Run Time</source>
+        <target>运行时间</target>
         <note from="auto-generated">A label displayed next to the run time of a process.</note>
       </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
         <source>Save</source>
+        <target>存储</target>
         <note from="auto-generated">A button that saves the current color setting.</note>
       </trans-unit>
       <trans-unit id="Search Online" xml:space="preserve">
         <source>Search Online</source>
+        <target>在线搜索</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search query format:" xml:space="preserve">
         <source>Search query format:</source>
+        <target>搜索查询格式：</target>
         <note from="auto-generated">A label for the search query format.</note>
       </trans-unit>
       <trans-unit id="Select process with a mouse click&#10;(Will reset text search)" xml:space="preserve">
         <source>Select process with a mouse click
 (Will reset text search)</source>
+        <target>用鼠标点按选择进程
+（将重置文本搜索）</target>
         <note from="auto-generated">A tooltip for the "Find process" button.</note>
       </trans-unit>
       <trans-unit id="Send Signal" xml:space="preserve">
         <source>Send Signal</source>
+        <target>发送信号</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sender" xml:space="preserve">
         <source>Sender</source>
+        <target>发送者</target>
         <note from="auto-generated">A column in the log table showing the sender of a log message.</note>
       </trans-unit>
       <trans-unit id="Series" xml:space="preserve">
         <source>Series</source>
+        <target>序列</target>
         <note/>
       </trans-unit>
       <trans-unit id="Shortcut Name:" xml:space="preserve">
         <source>Shortcut Name:</source>
+        <target>快捷指令名称：</target>
         <note from="auto-generated">A label for the user to enter a shortcut name.</note>
       </trans-unit>
       <trans-unit id="Shortcut with the chosen name will be triggered on a chosen event with the following parameters: input=text&amp;text=[process name]. ProcessSpy doesn't verify whether the Shortcut exists." xml:space="preserve">
         <source>Shortcut with the chosen name will be triggered on a chosen event with the following parameters: input=text&amp;text=[process name]. ProcessSpy doesn't verify whether the Shortcut exists.</source>
+        <target>所选名称的快捷指令将在选定事件上以下列参数触发：input=text&amp;text=[process name]。ProcessSpy 不会验证该快捷指令是否存在。</target>
         <note from="auto-generated">A description of the notification settings.</note>
       </trans-unit>
       <trans-unit id="Shortcuts" xml:space="preserve">
         <source>Shortcuts</source>
+        <target>快捷指令</target>
         <note from="auto-generated">A heading displayed above the list of user's notification settings.</note>
       </trans-unit>
       <trans-unit id="Show CPU usage" xml:space="preserve">
         <source>Show CPU usage</source>
+        <target>显示 CPU 使用率</target>
         <note from="auto-generated">A toggle that shows or hides the CPU usage widget in the menu bar.</note>
       </trans-unit>
       <trans-unit id="Show Disk throughput" xml:space="preserve">
         <source>Show Disk throughput</source>
+        <target>显示磁盘吞吐量</target>
         <note from="auto-generated">A checkbox to show the disk throughput usage in the menu bar.</note>
       </trans-unit>
       <trans-unit id="Show GPU usage" xml:space="preserve">
         <source>Show GPU usage</source>
+        <target>显示 GPU 使用率</target>
         <note from="auto-generated">A toggle to show the GPU usage in the menu bar.</note>
       </trans-unit>
       <trans-unit id="Show Memory usage" xml:space="preserve">
         <source>Show Memory usage</source>
+        <target>显示内存使用量</target>
         <note from="auto-generated">A toggle to show the memory usage in the menu bar.</note>
       </trans-unit>
       <trans-unit id="Show NEW badge for newly discovered processes" xml:space="preserve">
         <source>Show NEW badge for newly discovered processes</source>
+        <target>为新发现的进程显示“新”标记</target>
         <note from="auto-generated">A toggle that shows a badge for newly discovered processes.</note>
       </trans-unit>
       <trans-unit id="Show ProcessSpy in:" xml:space="preserve">
         <source>Show ProcessSpy in:</source>
+        <target>在以下位置显示 ProcessSpy：</target>
         <note from="auto-generated">A label that describes the picker for selecting the app behavior.</note>
       </trans-unit>
       <trans-unit id="Show aggregate values in hierarchy mode" xml:space="preserve">
         <source>Show aggregate values in hierarchy mode</source>
+        <target>在层级模式中显示合计值</target>
         <note from="auto-generated">A toggle that shows or hides aggregate values in the hierarchy mode.</note>
       </trans-unit>
       <trans-unit id="Show confirmation dialog before sending signal" xml:space="preserve">
         <source>Show confirmation dialog before sending signal</source>
+        <target>发送信号前显示确认对话框</target>
         <note from="auto-generated">A toggle that lets the user enable or disable the confirmation dialog before sending a signal to a process.</note>
       </trans-unit>
       <trans-unit id="Show dotted guides in hierarchy mode" xml:space="preserve">
         <source>Show dotted guides in hierarchy mode</source>
+        <target>在层级模式中显示虚线引导线</target>
         <note from="auto-generated">A toggle that enables or disables dotted guides in hierarchy mode.</note>
       </trans-unit>
       <trans-unit id="Show in Finder" xml:space="preserve">
         <source>Show in Finder</source>
+        <target>在“访达”中显示</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show in Main Window" xml:space="preserve">
         <source>Show in Main Window</source>
+        <target>在主窗口中显示</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show mini cpu graph next to each process name" xml:space="preserve">
         <source>Show mini cpu graph next to each process name</source>
+        <target>在每个进程名称旁显示迷你 CPU 图表</target>
         <note from="auto-generated">A toggle that enables or disables the display of a mini CPU graph next to each process name.</note>
       </trans-unit>
       <trans-unit id="Show secondary line in Name cell:" xml:space="preserve">
         <source>Show secondary line in Name cell:</source>
+        <target>在名称单元格中显示第二行：</target>
         <note from="auto-generated">A label for a picker that lets the user choose whether to show a secondary line in the name of a process.</note>
       </trans-unit>
       <trans-unit id="Show timeline next to each process name" xml:space="preserve">
         <source>Show timeline next to each process name</source>
+        <target>在每个进程名称旁显示时间线</target>
         <note from="auto-generated">A toggle that lets the user enable or disable the timeline view.</note>
       </trans-unit>
       <trans-unit id="Signature" xml:space="preserve">
         <source>Signature</source>
+        <target>签名</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sockets" xml:space="preserve">
         <source>Sockets</source>
+        <target>套接字</target>
         <note from="auto-generated">A label displayed in the sidebar tab for the list of open sockets.</note>
       </trans-unit>
       <trans-unit id="Some options are omitted in free version." xml:space="preserve">
         <source>Some options are omitted in free version.</source>
+        <target>免费版本中省略了部分选项。</target>
         <note from="auto-generated">A description of some options that are not available in the free version.</note>
       </trans-unit>
       <trans-unit id="Sort: %@" xml:space="preserve">
         <source>Sort: %@</source>
+        <target>排序：%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Src:" xml:space="preserve">
         <source>Src:</source>
+        <target>来源：</target>
         <note from="auto-generated">A label for the source of a socket.</note>
       </trans-unit>
       <trans-unit id="Start" xml:space="preserve">
         <source>Start</source>
+        <target>开始</target>
         <note from="auto-generated">A button that starts recording a process's history.</note>
       </trans-unit>
       <trans-unit id="Start History Recording" xml:space="preserve">
         <source>Start History Recording</source>
+        <target>开始历史记录</target>
         <note/>
       </trans-unit>
       <trans-unit id="Stop" xml:space="preserve">
         <source>Stop</source>
+        <target>停止</target>
         <note from="auto-generated">A button that stops streaming logs.</note>
       </trans-unit>
       <trans-unit id="Stop History Recording" xml:space="preserve">
         <source>Stop History Recording</source>
+        <target>停止历史记录</target>
         <note/>
       </trans-unit>
       <trans-unit id="Subsystem" xml:space="preserve">
         <source>Subsystem</source>
+        <target>子系统</target>
         <note from="auto-generated">A label for the subsystem column in the log stream.</note>
       </trans-unit>
       <trans-unit id="Subsystem:" xml:space="preserve">
         <source>Subsystem:</source>
+        <target>子系统：</target>
         <note from="auto-generated">A label for the subsystem filter picker.</note>
       </trans-unit>
       <trans-unit id="Support: [processspy@icloud.com](mailto:processspy@icloud.com)" xml:space="preserve">
         <source>Support: [processspy@icloud.com](mailto:processspy@icloud.com)</source>
+        <target>支持：[processspy@icloud.com](mailto:processspy@icloud.com)</target>
         <note from="auto-generated">A contact email for support.</note>
       </trans-unit>
       <trans-unit id="Sustained High CPU" xml:space="preserve">
         <source>Sustained High CPU</source>
+        <target>持续高 CPU</target>
         <note from="auto-generated">A toggle that enables or disables the display of sustained high CPU usage alerts.</note>
       </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
         <source>System: %1$@ (%2$@)</source>
+        <target>系统：%1$@（%2$@）</target>
         <note from="auto-generated">A tooltip that shows the system CPU time and the percentage of the total CPU time that the system CPU time represents. The first argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”. The second argument is the string “0%”, the string “&lt;0.1%”, the string “%.1f%%”, or the string “%.0f%%”.</note>
       </trans-unit>
       <trans-unit id="Table alternate row backgrounds" xml:space="preserve">
         <source>Table alternate row backgrounds</source>
+        <target>表格交替行背景</target>
         <note from="auto-generated">A toggle that enables or disables the background colors of the rows in a table.</note>
       </trans-unit>
       <trans-unit id="Terminate (SIGTERM)" xml:space="preserve">
         <source>Terminate (SIGTERM)</source>
+        <target>终止 (SIGTERM)</target>
         <note/>
       </trans-unit>
       <trans-unit id="The string must contain placeholder for process name: [processName]" xml:space="preserve">
         <source>The string must contain placeholder for process name: [processName]</source>
+        <target>该字符串必须包含进程名称占位符：[processName]</target>
         <note from="auto-generated">A description of the format of the search query.</note>
       </trans-unit>
       <trans-unit id="Theme" xml:space="preserve">
         <source>Theme</source>
+        <target>主题</target>
         <note from="auto-generated">A label for the theme picker.</note>
       </trans-unit>
       <trans-unit id="Threads" xml:space="preserve">
         <source>Threads</source>
+        <target>线程</target>
         <note from="auto-generated">A label displayed under the number of threads of a selected process.</note>
       </trans-unit>
       <trans-unit id="Threshold:" xml:space="preserve">
         <source>Threshold:</source>
+        <target>阈值：</target>
         <note from="auto-generated">A label displayed above a slider that lets the user set a CPU usage threshold.</note>
       </trans-unit>
       <trans-unit id="Time" xml:space="preserve">
         <source>Time</source>
+        <target>时间</target>
         <note/>
       </trans-unit>
       <trans-unit id="Time:" xml:space="preserve">
         <source>Time:</source>
+        <target>时间：</target>
         <note from="auto-generated">A label displayed under the CPU usage percentage.</note>
       </trans-unit>
       <trans-unit id="Timeline" xml:space="preserve">
         <source>Timeline</source>
+        <target>时间线</target>
         <note from="auto-generated">A label displayed above the process timeline.</note>
       </trans-unit>
       <trans-unit id="Toggle Inspector" xml:space="preserve">
         <source>Toggle Inspector</source>
+        <target>切换检查器</target>
         <note from="auto-generated">A button that toggles the visibility of the inspector.</note>
       </trans-unit>
       <trans-unit id="Trigger" xml:space="preserve">
         <source>Trigger</source>
+        <target>触发器</target>
         <note from="auto-generated">A label displayed next to the shortcut name.</note>
       </trans-unit>
       <trans-unit id="U" xml:space="preserve">
         <source>U</source>
+        <target>U</target>
         <note from="auto-generated">A letter of the CPU.</note>
       </trans-unit>
       <trans-unit id="UP: Time since last boot&#10;AWK: Time awake (excluding sleep)" xml:space="preserve">
         <source>UP: Time since last boot
 AWK: Time awake (excluding sleep)</source>
+        <target>UP：自上次启动以来的时间
+AWK：唤醒时间（不含睡眠）</target>
         <note from="auto-generated">A tooltip for the uptime block.</note>
       </trans-unit>
       <trans-unit id="Unknown selection" xml:space="preserve">
         <source>Unknown selection</source>
+        <target>未知选择</target>
         <note from="auto-generated">A placeholder text for a tab that is not yet implemented.</note>
       </trans-unit>
       <trans-unit id="User" xml:space="preserve">
         <source>User</source>
+        <target>用户</target>
         <note/>
       </trans-unit>
       <trans-unit id="User/Sys" xml:space="preserve">
         <source>User/Sys</source>
+        <target>用户/系统</target>
         <note from="auto-generated">A label displayed above the user/system CPU time bar.</note>
       </trans-unit>
       <trans-unit id="User: %@ (%@)" xml:space="preserve">
         <source>User: %1$@ (%2$@)</source>
+        <target>用户：%1$@（%2$@）</target>
         <note from="auto-generated">A tooltip that shows the user CPU time and the percentage of the total CPU time. The first argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”. The second argument is the string “0%”, the string “&lt;0.1%”, the string “%.1f%%”, or the string “%.0f%%”.</note>
       </trans-unit>
       <trans-unit id="Value" xml:space="preserve">
         <source>Value</source>
+        <target>值</target>
         <note/>
       </trans-unit>
       <trans-unit id="Verifying…" xml:space="preserve">
         <source>Verifying…</source>
+        <target>正在验证…</target>
         <note from="auto-generated">A placeholder for the button when the user is trying to apply a license key.</note>
       </trans-unit>
       <trans-unit id="Version" xml:space="preserve">
         <source>Version</source>
+        <target>版本</target>
         <note/>
       </trans-unit>
       <trans-unit id="Version: %@ - [Release Notes](https://process-spy.app/archive/release_notes.html)" xml:space="preserve">
         <source>Version: %@ - [Release Notes](https://process-spy.app/archive/release_notes.html)</source>
+        <target>版本：%@ - [发行说明](https://process-spy.app/archive/release_notes.html)</target>
         <note from="auto-generated">A label that links to the release notes for the app. The argument is the string “CFBundleName”, the string “CFBundleShortVersionString”, or the string “⚠️”.</note>
       </trans-unit>
       <trans-unit id="View type" xml:space="preserve">
         <source>View type</source>
+        <target>视图类型</target>
         <note from="auto-generated">A label for the view type picker.</note>
       </trans-unit>
       <trans-unit id="Virtual Memory" xml:space="preserve">
         <source>Virtual Memory</source>
+        <target>虚拟内存</target>
         <note/>
       </trans-unit>
       <trans-unit id="We are transitioning to a more secure activation system. Please paste your Gumroad license key below to seamlessly migrate your account. Legacy activations will be phased out in an upcoming release. If you need help finding your key, contact processspy@icloud.com." xml:space="preserve">
         <source>We are transitioning to a more secure activation system. Please paste your Gumroad license key below to seamlessly migrate your account. Legacy activations will be phased out in an upcoming release. If you need help finding your key, contact processspy@icloud.com.</source>
+        <target>我们正在迁移到更安全的激活系统。请在下方粘贴您的 Gumroad 许可证密钥，以平滑迁移您的账户。旧版激活将在后续发行版中逐步停用。如需帮助查找密钥，请联系 processspy@icloud.com。</target>
         <note from="auto-generated">A description of the migration process.</note>
       </trans-unit>
       <trans-unit id="Window Height" xml:space="preserve">
         <source>Window Height</source>
+        <target>窗口高度</target>
         <note from="auto-generated">A label for the height of the menu bar popover.</note>
       </trans-unit>
       <trans-unit id="[CGEventSupervisor (MIT license)](https://github.com/stephancasas/CGEventSupervisor)" xml:space="preserve">
         <source>[CGEventSupervisor (MIT license)](https://github.com/stephancasas/CGEventSupervisor)</source>
+        <target>[CGEventSupervisor（MIT 许可证）](https://github.com/stephancasas/CGEventSupervisor)</target>
         <note from="auto-generated">A link to the MIT license for the CGEventSupervisor open-source project.</note>
       </trans-unit>
       <trans-unit id="[CodeEditor (MIT license)](https://github.com/ZeeZide/CodeEditor)" xml:space="preserve">
         <source>[CodeEditor (MIT license)](https://github.com/ZeeZide/CodeEditor)</source>
+        <target>[CodeEditor（MIT 许可证）](https://github.com/ZeeZide/CodeEditor)</target>
         <note from="auto-generated">A link to the MIT license for the CodeEditor project.</note>
       </trans-unit>
       <trans-unit id="[Documentation](https://docs.process-spy.app)" xml:space="preserve">
         <source>[Documentation](https://docs.process-spy.app)</source>
+        <target>[文档](https://docs.process-spy.app)</target>
         <note from="auto-generated">A link to the documentation.</note>
       </trans-unit>
       <trans-unit id="[Report bug](https://github.com/robert-v/ProcessSpy-public/issues/new?template=bug_report.md)" xml:space="preserve">
         <source>[Report bug](https://github.com/robert-v/ProcessSpy-public/issues/new?template=bug_report.md)</source>
+        <target>[报告问题](https://github.com/robert-v/ProcessSpy-public/issues/new?template=bug_report.md)</target>
         <note from="auto-generated">A link to report a bug.</note>
       </trans-unit>
       <trans-unit id="[Request feature](https://github.com/robert-v/ProcessSpy-public/issues/new?template=feature_request.md)" xml:space="preserve">
         <source>[Request feature](https://github.com/robert-v/ProcessSpy-public/issues/new?template=feature_request.md)</source>
+        <target>[请求功能](https://github.com/robert-v/ProcessSpy-public/issues/new?template=feature_request.md)</target>
         <note from="auto-generated">A link to request a feature.</note>
       </trans-unit>
       <trans-unit id="[Sparkle (MIT license)](https://sparkle-project.org)" xml:space="preserve">
         <source>[Sparkle (MIT license)](https://sparkle-project.org)</source>
+        <target>[Sparkle（MIT 许可证）](https://sparkle-project.org)</target>
         <note from="auto-generated">A link to the Sparkle project.</note>
       </trans-unit>
       <trans-unit id="[Support](mailto:processspy@icloud.com)" xml:space="preserve">
         <source>[Support](mailto:processspy@icloud.com)</source>
+        <target>[支持](mailto:processspy@icloud.com)</target>
         <note from="auto-generated">A link to the support email.</note>
       </trans-unit>
       <trans-unit id="[swiftui-introspect (MIT license)](https://github.com/siteline/swiftui-introspect)" xml:space="preserve">
         <source>[swiftui-introspect (MIT license)](https://github.com/siteline/swiftui-introspect)</source>
+        <target>[swiftui-introspect（MIT 许可证）](https://github.com/siteline/swiftui-introspect)</target>
         <note from="auto-generated">A link to the MIT license for the swiftui-introspect package.</note>
       </trans-unit>
       <trans-unit id="if process name contains" xml:space="preserve">
         <source>if process name contains</source>
+        <target>如果进程名称包含</target>
         <note from="auto-generated">A label displayed in a row of a notification setting.</note>
       </trans-unit>
       <trans-unit id="on" xml:space="preserve">
         <source>on</source>
+        <target>于</target>
         <note from="auto-generated">A label that indicates the event on which a notification should be triggered.</note>
       </trans-unit>
       <trans-unit id="•" xml:space="preserve">
         <source>•</source>
+        <target>•</target>
         <note from="auto-generated">A period.</note>
       </trans-unit>
     </body>
