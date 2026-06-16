@@ -1,6 +1,6 @@
 # ProcessSpy Translations
 
-[ProcessSpy](https://yourwebsite.com) is a macOS process monitoring utility. This folder contains localization files for the app.
+[ProcessSpy](https://process-spy.app) is a macOS process monitoring utility. This folder contains localization files for the app.
 
 Community translations are welcome and appreciated. If you'd like to contribute, follow the steps below.
 
