@@ -38,4 +38,4 @@ Want to help translate ProcessSpy? See [translations/](translations/).
 - :heart: ProcessSpy? Write a [Review](https://senja.io/p/processspy/r/NTKt5r)
 - Check also:
   - [Restretto](https://restretto.app) - Free minimal REST API client for Mac
-  - [Essence](https://apps.apple.com/us/app/essence-log-viewer/id6762269744?mt=12) - Free smart log viewer for Macx 
+  - [Essence](https://apps.apple.com/us/app/essence-log-viewer/id6762269744?mt=12) - Free smart log viewer for Mac
