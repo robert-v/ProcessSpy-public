@@ -55,6 +55,7 @@
       </trans-unit>
       <trans-unit id="%@ is not responding" xml:space="preserve">
         <source>%@ is not responding</source>
+        <target state="translated">%@ 无响应</target>
         <note from="auto-generated">A notification that a process is not responding. The argument is the name of the process.</note>
       </trans-unit>
       <trans-unit id="%@ peak" xml:space="preserve">
@@ -69,6 +70,7 @@
       </trans-unit>
       <trans-unit id="%@ sustained %lld%% CPU" xml:space="preserve">
         <source>%1$@ sustained %2$lld%% CPU</source>
+        <target state="translated">%1$@ 持续占用 %2$lld%% CPU</target>
         <note from="auto-generated">A message that indicates a process is using a high percentage of CPU. The argument is the percentage of CPU usage.</note>
       </trans-unit>
       <trans-unit id="%@%%" xml:space="preserve">
@@ -173,6 +175,7 @@
       </trans-unit>
       <trans-unit id="All" xml:space="preserve">
         <source>All</source>
+        <target state="translated">全部</target>
         <note/>
       </trans-unit>
       <trans-unit id="Any process Name or Command matching the string will be highlighted with the chosen color." xml:space="preserve">
@@ -232,6 +235,7 @@
       </trans-unit>
       <trans-unit id="Background" xml:space="preserve">
         <source>Background</source>
+        <target state="translated">后台</target>
         <note from="auto-generated">Label for the background QoS class.</note>
       </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
@@ -241,11 +245,12 @@
       </trans-unit>
       <trans-unit id="Bring to Front" xml:space="preserve">
         <source>Bring to Front</source>
-        <target state="translated">前置</target>
+        <target state="translated">置于最前</target>
         <note/>
       </trans-unit>
       <trans-unit id="Bundle ID" xml:space="preserve">
         <source>Bundle ID</source>
+        <target state="translated">Bundle ID</target>
         <note from="auto-generated">Label for the bundle ID of a process.</note>
       </trans-unit>
       <trans-unit id="C" xml:space="preserve">
@@ -270,10 +275,12 @@
       </trans-unit>
       <trans-unit id="CPU Time" xml:space="preserve">
         <source>CPU Time</source>
+        <target state="translated">CPU 时间</target>
         <note from="auto-generated">Label for the CPU time of the process.</note>
       </trans-unit>
       <trans-unit id="CPU Usage" xml:space="preserve">
         <source>CPU Usage</source>
+        <target state="translated">CPU 使用率</target>
         <note from="auto-generated">Display name for the CPU Usage option in the menu bar popover.</note>
       </trans-unit>
       <trans-unit id="CPU:" xml:space="preserve">
@@ -313,6 +320,7 @@
       </trans-unit>
       <trans-unit id="Children" xml:space="preserve">
         <source>Children</source>
+        <target state="translated">子进程</target>
         <note from="auto-generated">Label for the list of child processes.</note>
       </trans-unit>
       <trans-unit id="Clear" xml:space="preserve">
@@ -407,14 +415,17 @@
       </trans-unit>
       <trans-unit id="DISK I/O" xml:space="preserve">
         <source>DISK I/O</source>
+        <target state="translated">磁盘 I/O</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dark" xml:space="preserve">
         <source>Dark</source>
+        <target state="translated">深色</target>
         <note from="auto-generated">Dark mode.</note>
       </trans-unit>
       <trans-unit id="Default" xml:space="preserve">
         <source>Default</source>
+        <target state="translated">默认</target>
         <note from="auto-generated">Label for the default QoS class.</note>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
@@ -424,10 +435,12 @@
       </trans-unit>
       <trans-unit id="Disk I/O Activity" xml:space="preserve">
         <source>Disk I/O Activity</source>
+        <target state="translated">磁盘 I/O 活动</target>
         <note from="auto-generated">Section title for the Disk I/O Activity section in the ProcessDetailsView.</note>
       </trans-unit>
       <trans-unit id="Dock Only" xml:space="preserve">
         <source>Dock Only</source>
+        <target state="translated">仅程序坞</target>
         <note from="auto-generated">Description of the dock-only app mode.</note>
       </trans-unit>
       <trans-unit id="Dst:" xml:space="preserve">
@@ -532,10 +545,12 @@
       </trans-unit>
       <trans-unit id="Format" xml:space="preserve">
         <source>Format</source>
+        <target state="translated">格式</target>
         <note from="auto-generated">The format of the process.</note>
       </trans-unit>
       <trans-unit id="GPU" xml:space="preserve">
         <source>GPU</source>
+        <target state="translated">GPU</target>
         <note/>
       </trans-unit>
       <trans-unit id="General" xml:space="preserve">
@@ -550,6 +565,7 @@
       </trans-unit>
       <trans-unit id="Hardened" xml:space="preserve">
         <source>Hardened</source>
+        <target state="translated">强化运行时</target>
         <note from="auto-generated">Label for the "Hardened" field in the Process Details section.</note>
       </trans-unit>
       <trans-unit id="Hide Inspector" xml:space="preserve">
@@ -584,6 +600,7 @@
       </trans-unit>
       <trans-unit id="Identity and Time" xml:space="preserve">
         <source>Identity and Time</source>
+        <target state="translated">身份与时间</target>
         <note from="auto-generated">Section header for process details that includes both the process's name and its PID.</note>
       </trans-unit>
       <trans-unit id="Ignore processes (comma-separated):" xml:space="preserve">
@@ -623,14 +640,17 @@
       </trans-unit>
       <trans-unit id="Last Seen" xml:space="preserve">
         <source>Last Seen</source>
+        <target state="translated">最后出现</target>
         <note from="auto-generated">Label for the last seen time of a process.</note>
       </trans-unit>
       <trans-unit id="Launched By" xml:space="preserve">
         <source>Launched By</source>
+        <target state="translated">启动者</target>
         <note from="auto-generated">Label for the "Launched By" field in the Process Details section.</note>
       </trans-unit>
       <trans-unit id="Legacy" xml:space="preserve">
         <source>Legacy</source>
+        <target state="translated">旧版</target>
         <note from="auto-generated">Label for a QoS class that is not available on all platforms.</note>
       </trans-unit>
       <trans-unit id="License activated." xml:space="preserve">
@@ -650,6 +670,7 @@
       </trans-unit>
       <trans-unit id="Light" xml:space="preserve">
         <source>Light</source>
+        <target state="translated">浅色</target>
         <note from="auto-generated">Display name for "Light" appearance</note>
       </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
@@ -664,10 +685,12 @@
       </trans-unit>
       <trans-unit id="Main Exec" xml:space="preserve">
         <source>Main Exec</source>
+        <target state="translated">主可执行文件</target>
         <note from="auto-generated">The main executable of the process.</note>
       </trans-unit>
       <trans-unit id="Maintenance" xml:space="preserve">
         <source>Maintenance</source>
+        <target state="translated">维护</target>
         <note from="auto-generated">Label for the QoS class with a priority of 10.</note>
       </trans-unit>
       <trans-unit id="Maximum processes shown" xml:space="preserve">
@@ -677,10 +700,12 @@
       </trans-unit>
       <trans-unit id="Medium" xml:space="preserve">
         <source>Medium</source>
+        <target state="translated">中</target>
         <note from="auto-generated">The medium size of the popover</note>
       </trans-unit>
       <trans-unit id="Memory" xml:space="preserve">
         <source>Memory</source>
+        <target state="translated">内存</target>
         <note from="auto-generated">Label for the memory usage in the resource usage view.</note>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
@@ -695,6 +720,7 @@
       </trans-unit>
       <trans-unit id="Menu Bar &amp; Dock" xml:space="preserve">
         <source>Menu Bar &amp; Dock</source>
+        <target state="translated">菜单栏与程序坞</target>
         <note from="auto-generated">Description of the option to show both the menu bar and dock.</note>
       </trans-unit>
       <trans-unit id="Menu Bar Alerts" xml:space="preserve">
@@ -704,6 +730,7 @@
       </trans-unit>
       <trans-unit id="Menu Bar Only" xml:space="preserve">
         <source>Menu Bar Only</source>
+        <target state="translated">仅菜单栏</target>
         <note from="auto-generated">Display name for the "Menu Bar Only" app mode.</note>
       </trans-unit>
       <trans-unit id="Menu Bar Widgets" xml:space="preserve">
@@ -738,6 +765,7 @@
       </trans-unit>
       <trans-unit id="No" xml:space="preserve">
         <source>No</source>
+        <target state="translated">否</target>
         <note from="auto-generated">"No"</note>
       </trans-unit>
       <trans-unit id="No Info.plist available" xml:space="preserve">
@@ -752,7 +780,7 @@
       </trans-unit>
       <trans-unit id="No Selection" xml:space="preserve">
         <source>No Selection</source>
-        <target state="translated">无选择</target>
+        <target state="translated">未选择</target>
         <note from="auto-generated">A message displayed when no process is selected.</note>
       </trans-unit>
       <trans-unit id="No command available" xml:space="preserve">
@@ -782,6 +810,7 @@
       </trans-unit>
       <trans-unit id="None" xml:space="preserve">
         <source>None</source>
+        <target state="translated">无</target>
         <note from="auto-generated">Displayed label for a filter option.</note>
       </trans-unit>
       <trans-unit id="Not available in free version." xml:space="preserve">
@@ -806,6 +835,7 @@
       </trans-unit>
       <trans-unit id="Parent" xml:space="preserve">
         <source>Parent</source>
+        <target state="translated">父进程</target>
         <note from="auto-generated">Label for the parent process information in the hierarchy section of the process details view.</note>
       </trans-unit>
       <trans-unit id="Path" xml:space="preserve">
@@ -880,6 +910,7 @@
       </trans-unit>
       <trans-unit id="Process Details" xml:space="preserve">
         <source>Process Details</source>
+        <target state="translated">进程详情</target>
         <note from="auto-generated">Section header title for the "Process Details" section.</note>
       </trans-unit>
       <trans-unit id="Process Event" xml:space="preserve">
@@ -919,6 +950,7 @@
       </trans-unit>
       <trans-unit id="Quit" xml:space="preserve">
         <source>Quit</source>
+        <target state="translated">退出</target>
         <note/>
       </trans-unit>
       <trans-unit id="Quit Process" xml:space="preserve">
@@ -928,14 +960,17 @@
       </trans-unit>
       <trans-unit id="Quit ProcessSpy?" xml:space="preserve">
         <source>Quit ProcessSpy?</source>
+        <target state="translated">退出 ProcessSpy？</target>
         <note/>
       </trans-unit>
       <trans-unit id="RAM" xml:space="preserve">
         <source>RAM</source>
+        <target state="translated">RAM</target>
         <note/>
       </trans-unit>
       <trans-unit id="Read" xml:space="preserve">
         <source>Read</source>
+        <target state="translated">读取</target>
         <note from="auto-generated">Label for the read IO stat.</note>
       </trans-unit>
       <trans-unit id="Refresh interval (seconds):" xml:space="preserve">
@@ -955,6 +990,7 @@
       </trans-unit>
       <trans-unit id="Reset Filters" xml:space="preserve">
         <source>Reset Filters</source>
+        <target state="translated">重置过滤器</target>
         <note from="auto-generated">Title of a menu item that resets all filter selections.</note>
       </trans-unit>
       <trans-unit id="Resident Memory" xml:space="preserve">
@@ -964,6 +1000,7 @@
       </trans-unit>
       <trans-unit id="Resource Usage" xml:space="preserve">
         <source>Resource Usage</source>
+        <target state="translated">资源使用情况</target>
         <note from="auto-generated">Section header for the resource usage section in the process details view.</note>
       </trans-unit>
       <trans-unit id="Resume" xml:space="preserve">
@@ -983,6 +1020,7 @@
       </trans-unit>
       <trans-unit id="Sandbox" xml:space="preserve">
         <source>Sandbox</source>
+        <target state="translated">沙盒</target>
         <note from="auto-generated">Label for the sandbox status of a process.</note>
       </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
@@ -992,10 +1030,12 @@
       </trans-unit>
       <trans-unit id="Search" xml:space="preserve">
         <source>Search</source>
+        <target state="translated">搜索</target>
         <note from="auto-generated">Placeholder text in the search bar.</note>
       </trans-unit>
       <trans-unit id="Search %@" xml:space="preserve">
         <source>Search %@</source>
+        <target state="translated">搜索 %@</target>
         <note from="auto-generated">A placeholder for a search field that shows the names of the currently selected filters.</note>
       </trans-unit>
       <trans-unit id="Search Online" xml:space="preserve">
@@ -1005,10 +1045,12 @@
       </trans-unit>
       <trans-unit id="Search in %lld fields" xml:space="preserve">
         <source>Search in %lld fields</source>
+        <target state="translated">在 %lld 个字段中搜索</target>
         <note from="auto-generated">A placeholder for a search bar that shows the number of filters being used.</note>
       </trans-unit>
       <trans-unit id="Search in:" xml:space="preserve">
         <source>Search in:</source>
+        <target state="translated">搜索范围：</target>
         <note from="auto-generated">Title of a menu item that appears in the menu that appears when you click the magnifying glass.</note>
       </trans-unit>
       <trans-unit id="Search query format:" xml:space="preserve">
@@ -1018,6 +1060,7 @@
       </trans-unit>
       <trans-unit id="Security" xml:space="preserve">
         <source>Security</source>
+        <target state="translated">安全性</target>
         <note from="auto-generated">Section header for the security information in the process details view.</note>
       </trans-unit>
       <trans-unit id="Select process with a mouse click&#10;(Will reset text search)" xml:space="preserve">
@@ -1134,10 +1177,12 @@
       </trans-unit>
       <trans-unit id="Signing Organization" xml:space="preserve">
         <source>Signing Organization</source>
+        <target state="translated">签名组织</target>
         <note from="auto-generated">Column name for the "Signing Organization" column in the Process Spy app.</note>
       </trans-unit>
       <trans-unit id="Small" xml:space="preserve">
         <source>Small</source>
+        <target state="translated">小</target>
         <note from="auto-generated">Display names for the popover height presets.</note>
       </trans-unit>
       <trans-unit id="Sockets" xml:space="preserve">
@@ -1172,14 +1217,17 @@
       </trans-unit>
       <trans-unit id="Start Time" xml:space="preserve">
         <source>Start Time</source>
+        <target state="translated">启动时间</target>
         <note from="auto-generated">Label for the start time of a process.</note>
       </trans-unit>
       <trans-unit id="Startup" xml:space="preserve">
         <source>Startup</source>
+        <target state="translated">启动</target>
         <note from="auto-generated">The startup type of the process.</note>
       </trans-unit>
       <trans-unit id="Startup Entry Type" xml:space="preserve">
         <source>Startup Entry Type</source>
+        <target state="translated">启动项类型</target>
         <note from="auto-generated">A column in the Process Spy app that shows the type of startup entry for a process.</note>
       </trans-unit>
       <trans-unit id="Stop" xml:space="preserve">
@@ -1214,6 +1262,7 @@
       </trans-unit>
       <trans-unit id="System" xml:space="preserve">
         <source>System</source>
+        <target state="translated">系统</target>
         <note from="auto-generated">Display name for the "System" appearance mode.</note>
       </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
@@ -1228,6 +1277,7 @@
       </trans-unit>
       <trans-unit id="Tall" xml:space="preserve">
         <source>Tall</source>
+        <target state="translated">高</target>
         <note from="auto-generated">The display name for the "Tall" popover height.</note>
       </trans-unit>
       <trans-unit id="Terminate (SIGTERM)" xml:space="preserve">
@@ -1304,10 +1354,12 @@ AWK：唤醒时间（不含睡眠）</target>
       </trans-unit>
       <trans-unit id="User Initiated" xml:space="preserve">
         <source>User Initiated</source>
+        <target state="translated">用户发起</target>
         <note from="auto-generated">Label for the user initiated QoS class.</note>
       </trans-unit>
       <trans-unit id="User Interactive" xml:space="preserve">
         <source>User Interactive</source>
+        <target state="translated">用户交互</target>
         <note from="auto-generated">Label for the user interactive QoS class.</note>
       </trans-unit>
       <trans-unit id="User/Sys" xml:space="preserve">
@@ -1322,6 +1374,7 @@ AWK：唤醒时间（不含睡眠）</target>
       </trans-unit>
       <trans-unit id="Utility" xml:space="preserve">
         <source>Utility</source>
+        <target state="translated">实用工具</target>
         <note from="auto-generated">Label for the utility QoS class.</note>
       </trans-unit>
       <trans-unit id="Value" xml:space="preserve">
@@ -1366,14 +1419,17 @@ AWK：唤醒时间（不含睡眠）</target>
       </trans-unit>
       <trans-unit id="Written" xml:space="preserve">
         <source>Written</source>
+        <target state="translated">写入</target>
         <note from="auto-generated">Label for the written bytes in an IO statistics row.</note>
       </trans-unit>
       <trans-unit id="Yes" xml:space="preserve">
         <source>Yes</source>
+        <target state="translated">是</target>
         <note from="auto-generated">Yes</note>
       </trans-unit>
       <trans-unit id="Zero KB" xml:space="preserve">
         <source>Zero KB</source>
+        <target state="translated">0 KB</target>
         <note from="auto-generated">A human-readable string representation of a file size in bytes.</note>
       </trans-unit>
       <trans-unit id="[CGEventSupervisor (MIT license)](https://github.com/stephancasas/CGEventSupervisor)" xml:space="preserve">
