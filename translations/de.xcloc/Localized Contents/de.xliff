@@ -48,6 +48,10 @@
         <source>%1$@ (%2$@ pages)</source>
         <note from="auto-generated">A label displaying the total number of page-ins and their rate. The first argument is the string “Zero KB”. The second argument is the rate of page-ins per second.</note>
       </trans-unit>
+      <trans-unit id="%@ is not responding" xml:space="preserve">
+        <source>%@ is not responding</source>
+        <note from="auto-generated">A notification that a process is not responding. The argument is the name of the process.</note>
+      </trans-unit>
       <trans-unit id="%@ peak" xml:space="preserve">
         <source>%@ peak</source>
         <note from="auto-generated">A label describing the peak usage of a resource.</note>
@@ -55,6 +59,10 @@
       <trans-unit id="%@ processes (%@)" xml:space="preserve">
         <source>%1$@ processes (%2$@)</source>
         <note from="auto-generated">A subtitle that displays the number of processes matching the current filter. The first argument is the number of processes. The second argument is the name of the current filter.</note>
+      </trans-unit>
+      <trans-unit id="%@ sustained %lld%% CPU" xml:space="preserve">
+        <source>%1$@ sustained %2$lld%% CPU</source>
+        <note from="auto-generated">A message that indicates a process is using a high percentage of CPU. The argument is the percentage of CPU usage.</note>
       </trans-unit>
       <trans-unit id="%@%%" xml:space="preserve">
         <source>%@%%</source>
@@ -136,6 +144,10 @@
         <source>After clicking Apply the tool will perform online validation of your license key.</source>
         <note from="auto-generated">A description of the license key validation process.</note>
       </trans-unit>
+      <trans-unit id="All" xml:space="preserve">
+        <source>All</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Any process Name or Command matching the string will be highlighted with the chosen color." xml:space="preserve">
         <source>Any process Name or Command matching the string will be highlighted with the chosen color.</source>
         <note from="auto-generated">A description of the color highlighting feature.</note>
@@ -180,6 +192,10 @@
         <source>Avg: %@</source>
         <note from="auto-generated">A label displaying the average and peak memory usage of a process.</note>
       </trans-unit>
+      <trans-unit id="Background" xml:space="preserve">
+        <source>Background</source>
+        <note from="auto-generated">Label for the background QoS class.</note>
+      </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
         <source>Behavior</source>
         <note from="auto-generated">A section in the general settings.</note>
@@ -187,6 +203,10 @@
       <trans-unit id="Bring to Front" xml:space="preserve">
         <source>Bring to Front</source>
         <note/>
+      </trans-unit>
+      <trans-unit id="Bundle ID" xml:space="preserve">
+        <source>Bundle ID</source>
+        <note from="auto-generated">Label for the bundle ID of a process.</note>
       </trans-unit>
       <trans-unit id="C" xml:space="preserve">
         <source>C</source>
@@ -203,6 +223,14 @@
       <trans-unit id="CPU Agg.:" xml:space="preserve">
         <source>CPU Agg.:</source>
         <note from="auto-generated">A label displayed above the CPU usage of a process.</note>
+      </trans-unit>
+      <trans-unit id="CPU Time" xml:space="preserve">
+        <source>CPU Time</source>
+        <note from="auto-generated">Label for the CPU time of the process.</note>
+      </trans-unit>
+      <trans-unit id="CPU Usage" xml:space="preserve">
+        <source>CPU Usage</source>
+        <note from="auto-generated">Display name for the CPU Usage option in the menu bar popover.</note>
       </trans-unit>
       <trans-unit id="CPU:" xml:space="preserve">
         <source>CPU:</source>
@@ -231,6 +259,10 @@
       <trans-unit id="Check for Updates…" xml:space="preserve">
         <source>Check for Updates…</source>
         <note from="auto-generated">A button that checks for updates.</note>
+      </trans-unit>
+      <trans-unit id="Children" xml:space="preserve">
+        <source>Children</source>
+        <note from="auto-generated">Label for the list of child processes.</note>
       </trans-unit>
       <trans-unit id="Clear" xml:space="preserve">
         <source>Clear</source>
@@ -304,9 +336,29 @@
         <source>Currently using %1$lld%% of lifetime peak (%2$@)</source>
         <note from="auto-generated">A tooltip that describes the current usage as a percentage of the lifetime peak.</note>
       </trans-unit>
+      <trans-unit id="DISK I/O" xml:space="preserve">
+        <source>DISK I/O</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dark" xml:space="preserve">
+        <source>Dark</source>
+        <note from="auto-generated">Dark mode.</note>
+      </trans-unit>
+      <trans-unit id="Default" xml:space="preserve">
+        <source>Default</source>
+        <note from="auto-generated">Label for the default QoS class.</note>
+      </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
         <note from="auto-generated">A button that deletes a color setting.</note>
+      </trans-unit>
+      <trans-unit id="Disk I/O Activity" xml:space="preserve">
+        <source>Disk I/O Activity</source>
+        <note from="auto-generated">Section title for the Disk I/O Activity section in the ProcessDetailsView.</note>
+      </trans-unit>
+      <trans-unit id="Dock Only" xml:space="preserve">
+        <source>Dock Only</source>
+        <note from="auto-generated">Description of the dock-only app mode.</note>
       </trans-unit>
       <trans-unit id="Dst:" xml:space="preserve">
         <source>Dst:</source>
@@ -388,6 +440,14 @@
         <source>Force Quit Process</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Format" xml:space="preserve">
+        <source>Format</source>
+        <note from="auto-generated">The format of the process.</note>
+      </trans-unit>
+      <trans-unit id="GPU" xml:space="preserve">
+        <source>GPU</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="General" xml:space="preserve">
         <source>General</source>
         <note from="auto-generated">The title of the General settings screen.</note>
@@ -395,6 +455,10 @@
       <trans-unit id="Get License" xml:space="preserve">
         <source>Get License</source>
         <note from="auto-generated">A button that opens the license purchase flow.</note>
+      </trans-unit>
+      <trans-unit id="Hardened" xml:space="preserve">
+        <source>Hardened</source>
+        <note from="auto-generated">Label for the "Hardened" field in the Process Details section.</note>
       </trans-unit>
       <trans-unit id="Hide Inspector" xml:space="preserve">
         <source>Hide Inspector</source>
@@ -419,6 +483,10 @@
       <trans-unit id="History recording stopped." xml:space="preserve">
         <source>History recording stopped.</source>
         <note from="auto-generated">A label displayed when a user stops recording a process's history.</note>
+      </trans-unit>
+      <trans-unit id="Identity and Time" xml:space="preserve">
+        <source>Identity and Time</source>
+        <note from="auto-generated">Section header for process details that includes both the process's name and its PID.</note>
       </trans-unit>
       <trans-unit id="Ignore processes (comma-separated):" xml:space="preserve">
         <source>Ignore processes (comma-separated):</source>
@@ -448,6 +516,18 @@
         <source>Kill (SIGKILL)</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Last Seen" xml:space="preserve">
+        <source>Last Seen</source>
+        <note from="auto-generated">Label for the last seen time of a process.</note>
+      </trans-unit>
+      <trans-unit id="Launched By" xml:space="preserve">
+        <source>Launched By</source>
+        <note from="auto-generated">Label for the "Launched By" field in the Process Details section.</note>
+      </trans-unit>
+      <trans-unit id="Legacy" xml:space="preserve">
+        <source>Legacy</source>
+        <note from="auto-generated">Label for a QoS class that is not available on all platforms.</note>
+      </trans-unit>
       <trans-unit id="License activated." xml:space="preserve">
         <source>License activated.</source>
         <note from="auto-generated">A message displayed when the user has a valid license.</note>
@@ -460,6 +540,10 @@
         <source>Licensed to: %@</source>
         <note from="auto-generated">A label displaying the email address of the user who has activated a license. The text is wrapped to fit within 320 points of width.</note>
       </trans-unit>
+      <trans-unit id="Light" xml:space="preserve">
+        <source>Light</source>
+        <note from="auto-generated">Display name for "Light" appearance</note>
+      </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
         <source>Load dylibs</source>
         <note/>
@@ -468,9 +552,25 @@
         <source>M. Agg.:</source>
         <note from="auto-generated">A label for the aggregated memory usage.</note>
       </trans-unit>
+      <trans-unit id="Main Exec" xml:space="preserve">
+        <source>Main Exec</source>
+        <note from="auto-generated">The main executable of the process.</note>
+      </trans-unit>
+      <trans-unit id="Maintenance" xml:space="preserve">
+        <source>Maintenance</source>
+        <note from="auto-generated">Label for the QoS class with a priority of 10.</note>
+      </trans-unit>
       <trans-unit id="Maximum processes shown" xml:space="preserve">
         <source>Maximum processes shown</source>
         <note from="auto-generated">A label displayed under the stepper that allows the user to change the maximum number of processes that can be displayed in the popover.</note>
+      </trans-unit>
+      <trans-unit id="Medium" xml:space="preserve">
+        <source>Medium</source>
+        <note from="auto-generated">The medium size of the popover</note>
+      </trans-unit>
+      <trans-unit id="Memory" xml:space="preserve">
+        <source>Memory</source>
+        <note from="auto-generated">Label for the memory usage in the resource usage view.</note>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
         <source>Memory:</source>
@@ -480,9 +580,17 @@
         <source>Menu Bar</source>
         <note from="auto-generated">The title of the menu bar settings view.</note>
       </trans-unit>
+      <trans-unit id="Menu Bar &amp; Dock" xml:space="preserve">
+        <source>Menu Bar &amp; Dock</source>
+        <note from="auto-generated">Description of the option to show both the menu bar and dock.</note>
+      </trans-unit>
       <trans-unit id="Menu Bar Alerts" xml:space="preserve">
         <source>Menu Bar Alerts</source>
         <note from="auto-generated">A section in the menu bar settings view that allows the user to configure alerts.</note>
+      </trans-unit>
+      <trans-unit id="Menu Bar Only" xml:space="preserve">
+        <source>Menu Bar Only</source>
+        <note from="auto-generated">Display name for the "Menu Bar Only" app mode.</note>
       </trans-unit>
       <trans-unit id="Menu Bar Widgets" xml:space="preserve">
         <source>Menu Bar Widgets</source>
@@ -507,6 +615,10 @@
       <trans-unit id="Name:" xml:space="preserve">
         <source>Name:</source>
         <note from="auto-generated">A label for the name of a color setting.</note>
+      </trans-unit>
+      <trans-unit id="No" xml:space="preserve">
+        <source>No</source>
+        <note from="auto-generated">"No"</note>
       </trans-unit>
       <trans-unit id="No Info.plist available" xml:space="preserve">
         <source>No Info.plist available</source>
@@ -540,6 +652,10 @@
         <source>No open sockets</source>
         <note from="auto-generated">A message displayed when there are no open sockets.</note>
       </trans-unit>
+      <trans-unit id="None" xml:space="preserve">
+        <source>None</source>
+        <note from="auto-generated">Displayed label for a filter option.</note>
+      </trans-unit>
       <trans-unit id="Not available in free version." xml:space="preserve">
         <source>Not available in free version.</source>
         <note from="auto-generated">A message displayed in the UI.</note>
@@ -555,6 +671,10 @@
       <trans-unit id="Page-ins" xml:space="preserve">
         <source>Page-ins</source>
         <note from="auto-generated">A label displayed above the page-in count and rate.</note>
+      </trans-unit>
+      <trans-unit id="Parent" xml:space="preserve">
+        <source>Parent</source>
+        <note from="auto-generated">Label for the parent process information in the hierarchy section of the process details view.</note>
       </trans-unit>
       <trans-unit id="Path" xml:space="preserve">
         <source>Path</source>
@@ -612,6 +732,10 @@
         <source>Prio/Nice</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Process Details" xml:space="preserve">
+        <source>Process Details</source>
+        <note from="auto-generated">Section header title for the "Process Details" section.</note>
+      </trans-unit>
       <trans-unit id="Process Event" xml:space="preserve">
         <source>Process Event</source>
         <note from="auto-generated">A label for the process event picker.</note>
@@ -640,9 +764,25 @@
         <source>QoS</source>
         <note from="auto-generated">A label displayed above the QoS column in the row.</note>
       </trans-unit>
+      <trans-unit id="Quit" xml:space="preserve">
+        <source>Quit</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Quit Process" xml:space="preserve">
         <source>Quit Process</source>
         <note/>
+      </trans-unit>
+      <trans-unit id="Quit ProcessSpy?" xml:space="preserve">
+        <source>Quit ProcessSpy?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="RAM" xml:space="preserve">
+        <source>RAM</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Read" xml:space="preserve">
+        <source>Read</source>
+        <note from="auto-generated">Label for the read IO stat.</note>
       </trans-unit>
       <trans-unit id="Refresh interval (seconds):" xml:space="preserve">
         <source>Refresh interval (seconds):</source>
@@ -656,9 +796,17 @@
         <source>Reset</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Reset Filters" xml:space="preserve">
+        <source>Reset Filters</source>
+        <note from="auto-generated">Title of a menu item that resets all filter selections.</note>
+      </trans-unit>
       <trans-unit id="Resident Memory" xml:space="preserve">
         <source>Resident Memory</source>
         <note from="auto-generated">A label displayed above a chart that shows the memory usage of a process.</note>
+      </trans-unit>
+      <trans-unit id="Resource Usage" xml:space="preserve">
+        <source>Resource Usage</source>
+        <note from="auto-generated">Section header for the resource usage section in the process details view.</note>
       </trans-unit>
       <trans-unit id="Resume" xml:space="preserve">
         <source>Resume</source>
@@ -672,17 +820,41 @@
         <source>Run Time</source>
         <note from="auto-generated">A label displayed next to the run time of a process.</note>
       </trans-unit>
+      <trans-unit id="Sandbox" xml:space="preserve">
+        <source>Sandbox</source>
+        <note from="auto-generated">Label for the sandbox status of a process.</note>
+      </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
         <source>Save</source>
         <note from="auto-generated">A button that saves the current color setting.</note>
+      </trans-unit>
+      <trans-unit id="Search" xml:space="preserve">
+        <source>Search</source>
+        <note from="auto-generated">Placeholder text in the search bar.</note>
+      </trans-unit>
+      <trans-unit id="Search %@" xml:space="preserve">
+        <source>Search %@</source>
+        <note from="auto-generated">A placeholder for a search field that shows the names of the currently selected filters.</note>
       </trans-unit>
       <trans-unit id="Search Online" xml:space="preserve">
         <source>Search Online</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Search in %lld fields" xml:space="preserve">
+        <source>Search in %lld fields</source>
+        <note from="auto-generated">A placeholder for a search bar that shows the number of filters being used.</note>
+      </trans-unit>
+      <trans-unit id="Search in:" xml:space="preserve">
+        <source>Search in:</source>
+        <note from="auto-generated">Title of a menu item that appears in the menu that appears when you click the magnifying glass.</note>
+      </trans-unit>
       <trans-unit id="Search query format:" xml:space="preserve">
         <source>Search query format:</source>
         <note from="auto-generated">A label for the search query format.</note>
+      </trans-unit>
+      <trans-unit id="Security" xml:space="preserve">
+        <source>Security</source>
+        <note from="auto-generated">Section header for the security information in the process details view.</note>
       </trans-unit>
       <trans-unit id="Select process with a mouse click&#10;(Will reset text search)" xml:space="preserve">
         <source>Select process with a mouse click
@@ -773,6 +945,14 @@
         <source>Signature</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Signing Organization" xml:space="preserve">
+        <source>Signing Organization</source>
+        <note from="auto-generated">Column name for the "Signing Organization" column in the Process Spy app.</note>
+      </trans-unit>
+      <trans-unit id="Small" xml:space="preserve">
+        <source>Small</source>
+        <note from="auto-generated">Display names for the popover height presets.</note>
+      </trans-unit>
       <trans-unit id="Sockets" xml:space="preserve">
         <source>Sockets</source>
         <note from="auto-generated">A label displayed in the sidebar tab for the list of open sockets.</note>
@@ -796,6 +976,18 @@
       <trans-unit id="Start History Recording" xml:space="preserve">
         <source>Start History Recording</source>
         <note/>
+      </trans-unit>
+      <trans-unit id="Start Time" xml:space="preserve">
+        <source>Start Time</source>
+        <note from="auto-generated">Label for the start time of a process.</note>
+      </trans-unit>
+      <trans-unit id="Startup" xml:space="preserve">
+        <source>Startup</source>
+        <note from="auto-generated">The startup type of the process.</note>
+      </trans-unit>
+      <trans-unit id="Startup Entry Type" xml:space="preserve">
+        <source>Startup Entry Type</source>
+        <note from="auto-generated">A column in the Process Spy app that shows the type of startup entry for a process.</note>
       </trans-unit>
       <trans-unit id="Stop" xml:space="preserve">
         <source>Stop</source>
@@ -821,6 +1013,10 @@
         <source>Sustained High CPU</source>
         <note from="auto-generated">A toggle that enables or disables the display of sustained high CPU usage alerts.</note>
       </trans-unit>
+      <trans-unit id="System" xml:space="preserve">
+        <source>System</source>
+        <note from="auto-generated">Display name for the "System" appearance mode.</note>
+      </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
         <source>System: %1$@ (%2$@)</source>
         <note from="auto-generated">A tooltip that shows the system CPU time and the percentage of the total CPU time that the system CPU time represents. The first argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”. The second argument is the string “0%”, the string “&lt;0.1%”, the string “%.1f%%”, or the string “%.0f%%”.</note>
@@ -828,6 +1024,10 @@
       <trans-unit id="Table alternate row backgrounds" xml:space="preserve">
         <source>Table alternate row backgrounds</source>
         <note from="auto-generated">A toggle that enables or disables the background colors of the rows in a table.</note>
+      </trans-unit>
+      <trans-unit id="Tall" xml:space="preserve">
+        <source>Tall</source>
+        <note from="auto-generated">The display name for the "Tall" popover height.</note>
       </trans-unit>
       <trans-unit id="Terminate (SIGTERM)" xml:space="preserve">
         <source>Terminate (SIGTERM)</source>
@@ -886,6 +1086,14 @@ AWK: Time awake (excluding sleep)</source>
         <source>User</source>
         <note/>
       </trans-unit>
+      <trans-unit id="User Initiated" xml:space="preserve">
+        <source>User Initiated</source>
+        <note from="auto-generated">Label for the user initiated QoS class.</note>
+      </trans-unit>
+      <trans-unit id="User Interactive" xml:space="preserve">
+        <source>User Interactive</source>
+        <note from="auto-generated">Label for the user interactive QoS class.</note>
+      </trans-unit>
       <trans-unit id="User/Sys" xml:space="preserve">
         <source>User/Sys</source>
         <note from="auto-generated">A label displayed above the user/system CPU time bar.</note>
@@ -893,6 +1101,10 @@ AWK: Time awake (excluding sleep)</source>
       <trans-unit id="User: %@ (%@)" xml:space="preserve">
         <source>User: %1$@ (%2$@)</source>
         <note from="auto-generated">A tooltip that shows the user CPU time and the percentage of the total CPU time. The first argument is the string “0s”, the string “%1$argh %2$argm %3$args”, the string “%1$argm %2$args”, or the string “%args”. The second argument is the string “0%”, the string “&lt;0.1%”, the string “%.1f%%”, or the string “%.0f%%”.</note>
+      </trans-unit>
+      <trans-unit id="Utility" xml:space="preserve">
+        <source>Utility</source>
+        <note from="auto-generated">Label for the utility QoS class.</note>
       </trans-unit>
       <trans-unit id="Value" xml:space="preserve">
         <source>Value</source>
@@ -925,6 +1137,18 @@ AWK: Time awake (excluding sleep)</source>
       <trans-unit id="Window Height" xml:space="preserve">
         <source>Window Height</source>
         <note from="auto-generated">A label for the height of the menu bar popover.</note>
+      </trans-unit>
+      <trans-unit id="Written" xml:space="preserve">
+        <source>Written</source>
+        <note from="auto-generated">Label for the written bytes in an IO statistics row.</note>
+      </trans-unit>
+      <trans-unit id="Yes" xml:space="preserve">
+        <source>Yes</source>
+        <note from="auto-generated">Yes</note>
+      </trans-unit>
+      <trans-unit id="Zero KB" xml:space="preserve">
+        <source>Zero KB</source>
+        <note from="auto-generated">A human-readable string representation of a file size in bytes.</note>
       </trans-unit>
       <trans-unit id="[CGEventSupervisor (MIT license)](https://github.com/stephancasas/CGEventSupervisor)" xml:space="preserve">
         <source>[CGEventSupervisor (MIT license)](https://github.com/stephancasas/CGEventSupervisor)</source>
