@@ -11,8 +11,10 @@ Community translations are welcome and appreciated. If you'd like to contribute,
 | Language | Code | Status |
 |---|---|---|
 | English | `en` | ✅ Base language |
+| Chinese Simplified | `zh-Hans` | ✅ |
 | German | `de` | 🔄 In progress |
-| Chinese Simplified | `zh-Hans` | 🔄 In progress |
+| Russian | `ru` | 🔄 In progress |
+| Ukrainian | `ua` | 🔄 In progress |
 
 ---
 
