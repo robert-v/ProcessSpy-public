@@ -14,7 +14,8 @@ Community translations are welcome and appreciated. If you'd like to contribute,
 | Chinese Simplified | `zh-Hans` | ✅ |
 | German | `de` | 🔄 In progress |
 | Russian | `ru` | 🔄 In progress |
-| Ukrainian | `ua` | 🔄 In progress |
+| Turkish | `tr` | 🔄 In progress |
+| Ukrainian | `uk` | 🔄 In progress |
 
 ---
 
