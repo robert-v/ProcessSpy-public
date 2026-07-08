@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="ProcessSpy/InfoPlist.xcstrings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -24,7 +24,7 @@
   </file>
   <file original="ProcessSpy/Localizable.xcstrings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
     </header>
     <body>
       <trans-unit id="" xml:space="preserve">
@@ -147,10 +147,20 @@
         <target state="new">(Spawns a vmmap process)</target>
         <note/>
       </trans-unit>
+      <trans-unit id="+ means charging" xml:space="preserve">
+        <source>+ means charging</source>
+        <target state="new">+ means charging</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="-" xml:space="preserve">
         <source>-</source>
         <target state="new">-</target>
         <note from="auto-generated">A placeholder for the current footprint.</note>
+      </trans-unit>
+      <trans-unit id="- means running on battery" xml:space="preserve">
+        <source>- means running on battery</source>
+        <target state="new">- means running on battery</target>
+        <note/>
       </trans-unit>
       <trans-unit id="0s" xml:space="preserve">
         <source>0s</source>
@@ -166,6 +176,11 @@
         <source>About ProcessSpy</source>
         <target state="new">About ProcessSpy</target>
         <note from="auto-generated">A button that opens the app's About dialog.</note>
+      </trans-unit>
+      <trans-unit id="Access ProcessSpy from both the Menu Bar and the Dock." xml:space="preserve">
+        <source>Access ProcessSpy from both the Menu Bar and the Dock.</source>
+        <target state="new">Access ProcessSpy from both the Menu Bar and the Dock.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Add..." xml:space="preserve">
         <source>Add...</source>
@@ -227,6 +242,16 @@
         <target state="new">Arg %lld</target>
         <note from="auto-generated">A badge that shows the index of a command-line argument. The argument is the index of the argument.</note>
       </trans-unit>
+      <trans-unit id="Average GPU Load" xml:space="preserve">
+        <source>Average GPU Load</source>
+        <target state="new">Average GPU Load</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Average System CPU Load" xml:space="preserve">
+        <source>Average System CPU Load</source>
+        <target state="new">Average System CPU Load</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Avg: %.1f" xml:space="preserve">
         <source>Avg: %.1f</source>
         <target state="new">Avg: %.1f</target>
@@ -241,6 +266,11 @@
         <source>Background</source>
         <target state="new">Background</target>
         <note from="auto-generated">Label for the background QoS class.</note>
+      </trans-unit>
+      <trans-unit id="Bars" xml:space="preserve">
+        <source>Bars</source>
+        <target state="new">Bars</target>
+        <note from="auto-generated">Display name for the "Bars" style of the menu bar chart.</note>
       </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
         <source>Behavior</source>
@@ -317,6 +347,11 @@
         <target state="new">Cell vertical padding</target>
         <note from="auto-generated">A label for the cell vertical padding picker.</note>
       </trans-unit>
+      <trans-unit id="Chart Style" xml:space="preserve">
+        <source>Chart Style</source>
+        <target state="new">Chart Style</target>
+        <note from="auto-generated">A label for the picker that lets the user choose the style of the chart.</note>
+      </trans-unit>
       <trans-unit id="Check for Updates…" xml:space="preserve">
         <source>Check for Updates…</source>
         <target state="new">Check for Updates…</target>
@@ -356,6 +391,11 @@
         <source>Command:</source>
         <target state="new">Command:</target>
         <note from="auto-generated">A label for the command regex field.</note>
+      </trans-unit>
+      <trans-unit id="Connections" xml:space="preserve">
+        <source>Connections</source>
+        <target state="new">Connections</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
@@ -477,6 +517,16 @@
         <target state="new">Enter license key…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Entitlements" xml:space="preserve">
+        <source>Entitlements</source>
+        <target state="new">Entitlements</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Environment variables" xml:space="preserve">
+        <source>Environment variables</source>
+        <target state="new">Environment variables</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Export History..." xml:space="preserve">
         <source>Export History...</source>
         <target state="new">Export History...</target>
@@ -496,6 +546,11 @@
         <source>External tools</source>
         <target state="new">External tools</target>
         <note from="auto-generated">A section in the general settings view that allows the user to configure paths and search query formats.</note>
+      </trans-unit>
+      <trans-unit id="Files" xml:space="preserve">
+        <source>Files</source>
+        <target state="new">Files</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Filter" xml:space="preserve">
         <source>Filter</source>
@@ -597,6 +652,11 @@
         <target state="new">History chart</target>
         <note from="auto-generated">A label for a view that shows a bar chart.</note>
       </trans-unit>
+      <trans-unit id="History graphs" xml:space="preserve">
+        <source>History graphs</source>
+        <target state="new">History graphs</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="History recording stopped." xml:space="preserve">
         <source>History recording stopped.</source>
         <target state="new">History recording stopped.</target>
@@ -621,6 +681,11 @@
         <source>Include finished processes</source>
         <target state="new">Include finished processes</target>
         <note from="auto-generated">A toggle that lets the user choose whether to show finished processes.</note>
+      </trans-unit>
+      <trans-unit id="Info.plist" xml:space="preserve">
+        <source>Info.plist</source>
+        <target state="new">Info.plist</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Info: %@" xml:space="preserve">
         <source>Info: %@</source>
@@ -677,6 +742,11 @@
         <target state="new">Light</target>
         <note from="auto-generated">Display name for "Light" appearance</note>
       </trans-unit>
+      <trans-unit id="Live Per-Core Usage" xml:space="preserve">
+        <source>Live Per-Core Usage</source>
+        <target state="new">Live Per-Core Usage</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
         <source>Load dylibs</source>
         <target state="new">Load dylibs</target>
@@ -711,6 +781,11 @@
         <source>Memory</source>
         <target state="new">Memory</target>
         <note from="auto-generated">Label for the memory usage in the resource usage view.</note>
+      </trans-unit>
+      <trans-unit id="Memory History (Wired | App | Compressed | Cached)" xml:space="preserve">
+        <source>Memory History (Wired | App | Compressed | Cached)</source>
+        <target state="new">Memory History (Wired | App | Compressed | Cached)</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
         <source>Memory:</source>
@@ -937,10 +1012,20 @@
         <target state="new">ProcessSpy Documentation…</target>
         <note from="auto-generated">A button that opens the ProcessSpy website when pressed.</note>
       </trans-unit>
+      <trans-unit id="ProcessSpy acts like a standard windowed application." xml:space="preserve">
+        <source>ProcessSpy acts like a standard windowed application.</source>
+        <target state="new">ProcessSpy acts like a standard windowed application.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com." xml:space="preserve">
         <source>ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com.</source>
         <target state="new">ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com.</target>
         <note from="auto-generated">A help message for the license migration banner.</note>
+      </trans-unit>
+      <trans-unit id="ProcessSpy runs quietly in the background without a Dock icon." xml:space="preserve">
+        <source>ProcessSpy runs quietly in the background without a Dock icon.</source>
+        <target state="new">ProcessSpy runs quietly in the background without a Dock icon.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="ProcessSpy uses open-source software:" xml:space="preserve">
         <source>ProcessSpy uses open-source software:</source>
@@ -1204,6 +1289,11 @@
         <target state="new">Sort: %@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Sparklines" xml:space="preserve">
+        <source>Sparklines</source>
+        <target state="new">Sparklines</target>
+        <note from="auto-generated">Display name for the "Sparklines" style of the menu bar.</note>
+      </trans-unit>
       <trans-unit id="Src:" xml:space="preserve">
         <source>Src:</source>
         <target state="new">Src:</target>
@@ -1268,6 +1358,11 @@
         <source>System</source>
         <target state="new">System</target>
         <note from="auto-generated">Display name for the "System" appearance mode.</note>
+      </trans-unit>
+      <trans-unit id="System-wide Disk I/O" xml:space="preserve">
+        <source>System-wide Disk I/O</source>
+        <target state="new">System-wide Disk I/O</target>
+        <note/>
       </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
         <source>System: %1$@ (%2$@)</source>
@@ -1485,6 +1580,11 @@ AWK: Time awake (excluding sleep)</target>
         <source>on</source>
         <target state="new">on</target>
         <note from="auto-generated">A label that indicates the event on which a notification should be triggered.</note>
+      </trans-unit>
+      <trans-unit id="~ means plugged in, not charging" xml:space="preserve">
+        <source>~ means plugged in, not charging</source>
+        <target state="new">~ means plugged in, not charging</target>
+        <note/>
       </trans-unit>
       <trans-unit id="•" xml:space="preserve">
         <source>•</source>

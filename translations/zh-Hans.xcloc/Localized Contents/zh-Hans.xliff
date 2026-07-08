@@ -143,10 +143,20 @@
         <target state="translated">（生成一个 vmmap 进程）</target>
         <note/>
       </trans-unit>
+      <trans-unit id="+ means charging" xml:space="preserve">
+        <source>+ means charging</source>
+        <target state="translated">+ 表示正在充电</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="-" xml:space="preserve">
         <source>-</source>
         <target state="translated">-</target>
         <note from="auto-generated">A placeholder for the current footprint.</note>
+      </trans-unit>
+      <trans-unit id="- means running on battery" xml:space="preserve">
+        <source>- means running on battery</source>
+        <target state="translated">- 表示使用电池供电</target>
+        <note/>
       </trans-unit>
       <trans-unit id="0s" xml:space="preserve">
         <source>0s</source>
@@ -227,6 +237,16 @@
         <source>Arg %lld</source>
         <target state="translated">参数 %lld</target>
         <note from="auto-generated">A badge that shows the index of a command-line argument. The argument is the index of the argument.</note>
+      </trans-unit>
+      <trans-unit id="Average GPU Load" xml:space="preserve">
+        <source>Average GPU Load</source>
+        <target state="translated">平均 GPU 负载</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Average System CPU Load" xml:space="preserve">
+        <source>Average System CPU Load</source>
+        <target state="translated">系统平均 CPU 负载</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Avg: %.1f" xml:space="preserve">
         <source>Avg: %.1f</source>
@@ -718,6 +738,11 @@
         <target state="translated">浅色</target>
         <note from="auto-generated">Display name for "Light" appearance</note>
       </trans-unit>
+      <trans-unit id="Live Per-Core Usage" xml:space="preserve">
+        <source>Live Per-Core Usage</source>
+        <target state="translated">实时每核心使用率</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
         <source>Load dylibs</source>
         <target state="translated">加载动态库</target>
@@ -752,6 +777,11 @@
         <source>Memory</source>
         <target state="translated">内存</target>
         <note from="auto-generated">Label for the memory usage in the resource usage view.</note>
+      </trans-unit>
+      <trans-unit id="Memory History (Wired | App | Compressed | Cached)" xml:space="preserve">
+        <source>Memory History (Wired | App | Compressed | Cached)</source>
+        <target state="translated">内存历史（联动 | 应用 | 压缩 | 缓存）</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
         <source>Memory:</source>
@@ -1325,6 +1355,11 @@
         <target state="translated">系统</target>
         <note from="auto-generated">Display name for the "System" appearance mode.</note>
       </trans-unit>
+      <trans-unit id="System-wide Disk I/O" xml:space="preserve">
+        <source>System-wide Disk I/O</source>
+        <target state="translated">系统级磁盘 I/O</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
         <source>System: %1$@ (%2$@)</source>
         <target state="translated">系统：%1$@（%2$@）</target>
@@ -1541,6 +1576,11 @@ AWK：唤醒时间（不含睡眠）</target>
         <source>on</source>
         <target state="translated">于</target>
         <note from="auto-generated">A label that indicates the event on which a notification should be triggered.</note>
+      </trans-unit>
+      <trans-unit id="~ means plugged in, not charging" xml:space="preserve">
+        <source>~ means plugged in, not charging</source>
+        <target state="translated">~ 表示已接通电源，但未充电</target>
+        <note/>
       </trans-unit>
       <trans-unit id="•" xml:space="preserve">
         <source>•</source>
