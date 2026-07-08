@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="ProcessSpy/InfoPlist.xcstrings" source-language="en" target-language="uk" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -21,7 +21,7 @@
   </file>
   <file original="ProcessSpy/Localizable.xcstrings" source-language="en" target-language="uk" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
     </header>
     <body>
       <trans-unit id="" xml:space="preserve">
@@ -135,6 +135,10 @@
       <trans-unit id="About ProcessSpy" xml:space="preserve">
         <source>About ProcessSpy</source>
         <note from="auto-generated">A button that opens the app's About dialog.</note>
+      </trans-unit>
+      <trans-unit id="Access ProcessSpy from both the Menu Bar and the Dock." xml:space="preserve">
+        <source>Access ProcessSpy from both the Menu Bar and the Dock.</source>
+        <note/>
       </trans-unit>
       <trans-unit id="Add..." xml:space="preserve">
         <source>Add...</source>
@@ -296,6 +300,10 @@
         <source>Command:</source>
         <note from="auto-generated">A label for the command regex field.</note>
       </trans-unit>
+      <trans-unit id="Connections" xml:space="preserve">
+        <source>Connections</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
         <note from="auto-generated">A contextual menu item that copies the current entitlement to the clipboard.</note>
@@ -392,6 +400,14 @@
         <source>Enter license key…</source>
         <note/>
       </trans-unit>
+      <trans-unit id="Entitlements" xml:space="preserve">
+        <source>Entitlements</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Environment variables" xml:space="preserve">
+        <source>Environment variables</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Export History..." xml:space="preserve">
         <source>Export History...</source>
         <note/>
@@ -407,6 +423,10 @@
       <trans-unit id="External tools" xml:space="preserve">
         <source>External tools</source>
         <note from="auto-generated">A section in the general settings view that allows the user to configure paths and search query formats.</note>
+      </trans-unit>
+      <trans-unit id="Files" xml:space="preserve">
+        <source>Files</source>
+        <note/>
       </trans-unit>
       <trans-unit id="Filter" xml:space="preserve">
         <source>Filter</source>
@@ -488,6 +508,10 @@
         <source>History chart</source>
         <note from="auto-generated">A label for a view that shows a bar chart.</note>
       </trans-unit>
+      <trans-unit id="History graphs" xml:space="preserve">
+        <source>History graphs</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="History recording stopped." xml:space="preserve">
         <source>History recording stopped.</source>
         <note from="auto-generated">A label displayed when a user stops recording a process's history.</note>
@@ -507,6 +531,10 @@
       <trans-unit id="Include finished processes" xml:space="preserve">
         <source>Include finished processes</source>
         <note from="auto-generated">A toggle that lets the user choose whether to show finished processes.</note>
+      </trans-unit>
+      <trans-unit id="Info.plist" xml:space="preserve">
+        <source>Info.plist</source>
+        <note/>
       </trans-unit>
       <trans-unit id="Info: %@" xml:space="preserve">
         <source>Info: %@</source>
@@ -760,9 +788,17 @@
         <source>ProcessSpy Documentation…</source>
         <note from="auto-generated">A button that opens the ProcessSpy website when pressed.</note>
       </trans-unit>
+      <trans-unit id="ProcessSpy acts like a standard windowed application." xml:space="preserve">
+        <source>ProcessSpy acts like a standard windowed application.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com." xml:space="preserve">
         <source>ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com.</source>
         <note from="auto-generated">A help message for the license migration banner.</note>
+      </trans-unit>
+      <trans-unit id="ProcessSpy runs quietly in the background without a Dock icon." xml:space="preserve">
+        <source>ProcessSpy runs quietly in the background without a Dock icon.</source>
+        <note/>
       </trans-unit>
       <trans-unit id="ProcessSpy uses open-source software:" xml:space="preserve">
         <source>ProcessSpy uses open-source software:</source>
