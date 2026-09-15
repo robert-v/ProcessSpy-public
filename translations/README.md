@@ -12,10 +12,8 @@ Community translations are welcome and appreciated. If you'd like to contribute,
 |---|---|---|
 | English | `en` | ✅ Base language |
 | Chinese Simplified | `zh-Hans` | ✅ |
-| German | `de` | 🔄 In progress |
-| Russian | `ru` | 🔄 In progress |
-| Turkish | `tr` | 🔄 In progress |
-| Ukrainian | `uk` | 🔄 In progress |
+| German | `de` | ✅ |
+
 
 ---
 
