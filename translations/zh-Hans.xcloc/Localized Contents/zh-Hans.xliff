@@ -175,7 +175,7 @@
       </trans-unit>
       <trans-unit id="Access ProcessSpy from both the Menu Bar and the Dock." xml:space="preserve">
         <source>Access ProcessSpy from both the Menu Bar and the Dock.</source>
-        <target state="translated">可从菜单栏和 Dock 同时访问 ProcessSpy。</target>
+        <target state="translated">可从菜单栏和程序坞访问 ProcessSpy。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add..." xml:space="preserve">
@@ -265,7 +265,7 @@
       </trans-unit>
       <trans-unit id="Bars" xml:space="preserve">
         <source>Bars</source>
-        <target state="translated">进度条</target>
+        <target state="translated">条形图</target>
         <note from="auto-generated">Display name for the "Bars" style of the menu bar chart.</note>
       </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
@@ -685,7 +685,7 @@
       </trans-unit>
       <trans-unit id="Info: %@" xml:space="preserve">
         <source>Info: %@</source>
-        <target state="translated">信息：%@</target>
+        <target state="translated">副标题：%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Interrupt (SIGINT)" xml:space="preserve">
@@ -740,7 +740,7 @@
       </trans-unit>
       <trans-unit id="Live Per-Core Usage" xml:space="preserve">
         <source>Live Per-Core Usage</source>
-        <target state="translated">实时每核心使用率</target>
+        <target state="translated">各 CPU 核实时使用率</target>
         <note/>
       </trans-unit>
       <trans-unit id="Load dylibs" xml:space="preserve">
@@ -780,7 +780,7 @@
       </trans-unit>
       <trans-unit id="Memory History (Wired | App | Compressed | Cached)" xml:space="preserve">
         <source>Memory History (Wired | App | Compressed | Cached)</source>
-        <target state="translated">内存历史（联动 | 应用 | 压缩 | 缓存）</target>
+        <target state="translated">内存历史（联动内存 | App 内存 | 被压缩 | 已缓存文件）</target>
         <note/>
       </trans-unit>
       <trans-unit id="Memory:" xml:space="preserve">
@@ -1010,7 +1010,7 @@
       </trans-unit>
       <trans-unit id="ProcessSpy acts like a standard windowed application." xml:space="preserve">
         <source>ProcessSpy acts like a standard windowed application.</source>
-        <target state="translated">ProcessSpy 表现为标准的窗口应用程序。</target>
+        <target state="translated">ProcessSpy 会像标准的窗口 App 一样运行。</target>
         <note/>
       </trans-unit>
       <trans-unit id="ProcessSpy now uses a more secure activation system. Click to re-enter your Gumroad license key. Need help? Contact processspy@icloud.com." xml:space="preserve">
@@ -1020,7 +1020,7 @@
       </trans-unit>
       <trans-unit id="ProcessSpy runs quietly in the background without a Dock icon." xml:space="preserve">
         <source>ProcessSpy runs quietly in the background without a Dock icon.</source>
-        <target state="translated">ProcessSpy 在后台安静运行，不显示 Dock 图标。</target>
+        <target state="translated">ProcessSpy 在后台静默运行，不显示程序坞图标。</target>
         <note/>
       </trans-unit>
       <trans-unit id="ProcessSpy uses open-source software:" xml:space="preserve">
@@ -1247,7 +1247,7 @@
       </trans-unit>
       <trans-unit id="Show secondary line in Name cell:" xml:space="preserve">
         <source>Show secondary line in Name cell:</source>
-        <target state="translated">在名称单元格中显示第二行：</target>
+        <target state="translated">在名称单元格中显示副标题：</target>
         <note from="auto-generated">A label for a picker that lets the user choose whether to show a secondary line in the name of a process.</note>
       </trans-unit>
       <trans-unit id="Show timeline next to each process name" xml:space="preserve">
@@ -1357,7 +1357,7 @@
       </trans-unit>
       <trans-unit id="System-wide Disk I/O" xml:space="preserve">
         <source>System-wide Disk I/O</source>
-        <target state="translated">系统级磁盘 I/O</target>
+        <target state="translated">系统范围的磁盘 I/O</target>
         <note/>
       </trans-unit>
       <trans-unit id="System: %@ (%@)" xml:space="preserve">
